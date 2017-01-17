@@ -1,8 +1,8 @@
 <header class="main-header">
     <div class="main-header__layout">
         <nav class="main-nav"><a href="#" class="main-nav__logo">VANE Geospatial Platform</a>
-            <div id="toggle-nav" class="main-nav__toggle toggle"><span class="toggle__line"></span><span class="toggle__line"></span><span class="toggle__line"></span></div>
-            <ul class="main-nav__items">
+            <div id="toggle-nav" class="main-nav__toggle toggle" (click)="getNav()"><span class="toggle__line"></span><span class="toggle__line"></span><span class="toggle__line"></span></div>
+            <ul class="main-nav__items" (click)="getToggle()">
                 <li id="menu-vane" class="main-nav__item"><a href="#" class="main-nav__link">VANE Query Language<span class="icon icon__caret-down"></span></a>
                     <ul class="main-nav__sub-items main-nav__sub-items--vane">
                         <li class="main-nav__sub-item"><a href="/vaneLanguage" class="main-nav__sub-link">VANE Query Language specs</a></li>

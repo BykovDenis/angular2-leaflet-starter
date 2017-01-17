@@ -56687,7 +56687,67 @@
 	var core_1 = __webpack_require__(3);
 	var MainNavComponent = (function () {
 	    function MainNavComponent() {
+	        this.flagMenuVane = false;
+	        this.flagMenuMaps = false;
+	        this.flagNavMenu = false;
 	    }
+	    MainNavComponent.prototype.ngOnInit = function () {
+	        //Работа с меню навигации
+	        var mainNav = document.querySelector('.main-nav__items');
+	        var toggleNav = document.getElementById('toggle-nav');
+	        if (mainNav) {
+	            var getNav = function () {
+	                if (!this.flagNavMenu) {
+	                    mainNav.classList.add('main-nav__items--enable');
+	                }
+	                else {
+	                    mainNav.classList.remove('main-nav__items--enable');
+	                }
+	                this.flagNavMenu = !this.flagNavMenu;
+	            }.bind(this);
+	            if (toggleNav) {
+	                toggleNav.addEventListener('click', getNav);
+	            }
+	        }
+	    };
+	    MainNavComponent.prototype.getToggle = function () {
+	        debugger;
+	        var node = event.target.parentNode;
+	        var element = document.getElementById(node.id);
+	        if (element) {
+	            var menuVane = element.querySelector('.main-nav__sub-items');
+	            if (node.id === 'menu-vane') {
+	                if (!this.flagMenuVane) {
+	                    menuVane.classList.add('main-nav__sub-items--enable');
+	                    var icon = element.querySelector('.icon__caret-down');
+	                    icon.classList.remove('icon__caret-down');
+	                    icon.classList.add('icon__caret-up');
+	                }
+	                else {
+	                    menuVane.classList.remove('main-nav__sub-items--enable');
+	                    var icon = element.querySelector('.icon__caret-up');
+	                    icon.classList.add('icon__caret-down');
+	                    icon.classList.remove('icon__caret-up');
+	                }
+	                this.flagMenuVane = !this.flagMenuVane;
+	            }
+	            if (node.id === 'menu-maps') {
+	                if (!this.flagMenuMaps) {
+	                    menuVane.classList.add('main-nav__sub-items--enable');
+	                    var icon = element.querySelector('.icon__caret-down');
+	                    icon.classList.remove('icon__caret-down');
+	                    icon.classList.add('icon__caret-up');
+	                }
+	                else {
+	                    menuVane.classList.remove('main-nav__sub-items--enable');
+	                    var icon = element.querySelector('.icon__caret-up');
+	                    icon.classList.add('icon__caret-down');
+	                    icon.classList.remove('icon__caret-up');
+	                }
+	                this.flagMenuMaps = !this.flagMenuMaps;
+	            }
+	        }
+	    };
 	    return MainNavComponent;
 	}());
 	MainNavComponent = __decorate([
@@ -56706,7 +56766,7 @@
 /* 30 */
 /***/ (function(module, exports) {
 
-	module.exports = "<header class=\"main-header\">\r\n    <div class=\"main-header__layout\">\r\n        <nav class=\"main-nav\"><a href=\"#\" class=\"main-nav__logo\">VANE Geospatial Platform</a>\r\n            <div id=\"toggle-nav\" class=\"main-nav__toggle toggle\"><span class=\"toggle__line\"></span><span class=\"toggle__line\"></span><span class=\"toggle__line\"></span></div>\r\n            <ul class=\"main-nav__items\">\r\n                <li id=\"menu-vane\" class=\"main-nav__item\"><a href=\"#\" class=\"main-nav__link\">VANE Query Language<span class=\"icon icon__caret-down\"></span></a>\r\n                    <ul class=\"main-nav__sub-items main-nav__sub-items--vane\">\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/vaneLanguage\" class=\"main-nav__sub-link\">VANE Query Language specs</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/beautiful-vane\" class=\"main-nav__sub-link\">Showcase</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/cases/ChangeDetection\" class=\"main-nav__sub-link\">Change Detection</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/sql-viewer?select=b5,b4&amp;where=day=2016-200&amp;op=ndvi&amp;lon=-102.21&amp;lat=34.3264&amp;zoom=12\" class=\"main-nav__sub-link\">Query Viewer</a></li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"main-nav__item\"><a href=\"/jupyter/start\" class=\"main-nav__link\">Jupyter</a></li>\r\n                <li id=\"menu-maps\" class=\"main-nav__item\"><a href=\"#\" class=\"main-nav__link\">Maps<span class=\"icon icon__caret-down\"></span></a>\r\n                    <ul class=\"main-nav__sub-items main-nav__sub-items--maps\">\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/mosaic\" class=\"main-nav__sub-link\">Mosaic map</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/ndvi\" class=\"main-nav__sub-link\">NDVI maps</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/finder\" class=\"main-nav__sub-link\">Scenes finder</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/weathermap\" class=\"main-nav__sub-link\">Weather maps</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/beautiful_maps\" class=\"main-nav__sub-link\">Beautiful maps</a></li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"main-nav__item\"><a href=\"/news\" class=\"main-nav__link\">News</a></li>\r\n                <li class=\"main-nav__item\"><a href=\"/about\" class=\"main-nav__link\">About</a></li>\r\n            </ul>\r\n        </nav>\r\n    </div>\r\n</header>"
+	module.exports = "<header class=\"main-header\">\r\n    <div class=\"main-header__layout\">\r\n        <nav class=\"main-nav\"><a href=\"#\" class=\"main-nav__logo\">VANE Geospatial Platform</a>\r\n            <div id=\"toggle-nav\" class=\"main-nav__toggle toggle\"><span class=\"toggle__line\"></span><span class=\"toggle__line\"></span><span class=\"toggle__line\"></span></div>\r\n            <ul class=\"main-nav__items\" (click)=\"getToggle()\">\r\n                <li id=\"menu-vane\" class=\"main-nav__item\"><a href=\"#\" class=\"main-nav__link\">VANE Query Language<span class=\"icon icon__caret-down\"></span></a>\r\n                    <ul class=\"main-nav__sub-items main-nav__sub-items--vane\">\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/vaneLanguage\" class=\"main-nav__sub-link\">VANE Query Language specs</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/beautiful-vane\" class=\"main-nav__sub-link\">Showcase</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/cases/ChangeDetection\" class=\"main-nav__sub-link\">Change Detection</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/sql-viewer?select=b5,b4&amp;where=day=2016-200&amp;op=ndvi&amp;lon=-102.21&amp;lat=34.3264&amp;zoom=12\" class=\"main-nav__sub-link\">Query Viewer</a></li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"main-nav__item\"><a href=\"/jupyter/start\" class=\"main-nav__link\">Jupyter</a></li>\r\n                <li id=\"menu-maps\" class=\"main-nav__item\"><a href=\"#\" class=\"main-nav__link\">Maps<span class=\"icon icon__caret-down\"></span></a>\r\n                    <ul class=\"main-nav__sub-items main-nav__sub-items--maps\">\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/mosaic\" class=\"main-nav__sub-link\">Mosaic map</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/ndvi\" class=\"main-nav__sub-link\">NDVI maps</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/finder\" class=\"main-nav__sub-link\">Scenes finder</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/weathermap\" class=\"main-nav__sub-link\">Weather maps</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/beautiful_maps\" class=\"main-nav__sub-link\">Beautiful maps</a></li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"main-nav__item\"><a href=\"/news\" class=\"main-nav__link\">News</a></li>\r\n                <li class=\"main-nav__item\"><a href=\"/about\" class=\"main-nav__link\">About</a></li>\r\n            </ul>\r\n        </nav>\r\n    </div>\r\n</header>"
 
 /***/ }),
 /* 31 */

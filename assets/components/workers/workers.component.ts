@@ -11,7 +11,7 @@ export class WorkersComponent {
         {
             name: "Olga Ukolova",
             post: "CEO",
-            photo: "Olga-Ukolova.jpg"
+            photo: "Olga-Ukolova.jpg",
             experience: "Entrepreneur, founder of the OpenWeatherMap company, one of the world leaders in the weather data market, enthusiast of Geospatial and Big Data technologies with 10+ years expertise in B2B business development management in the IT and high-tech fields."
         },
         {

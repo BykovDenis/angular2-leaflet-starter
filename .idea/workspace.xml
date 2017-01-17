@@ -2,68 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f34888b-762b-4466-ad2d-b7e1d3248497" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/libs.edeb24d250abf2ebaac5732520e3fd49.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Alla-Vladimirova.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Daria-Usova.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Denis-Bykov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Dennis-Ukolov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Dmitriy-Kharitonov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Ekaterina-Rubatskaya.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Georgy-Potapov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Maxim-Guschcho.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Maxim-Samokhin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Mikhail-Remizov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Olga-Makarova.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Olga-Ukolova.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Pedro-Gabriel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Sergey-Bobrovskikh.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Sergey-Venediktov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icon-fb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icon-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/img-bracket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ndvi_mask_S2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/research_icon_LP.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/tools_icon_LP.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/app.09a2ff266a75962a3057.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/libs.09a2ff266a75962a3057.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/libs.09a2ff266a75962a3057.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/css/libs.897e707b0c99e6445588c1a37ae62cad.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Alla-Vladimirova.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Daria-Usova.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Denis-Bykov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Dennis-Ukolov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Dmitriy-Kharitonov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Ekaterina-Rubatskaya.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Georgy-Potapov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Maxim-Guschcho.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Maxim-Samokhin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Mikhail-Remizov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Olga-Makarova.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Olga-Ukolova.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Pedro-Gabriel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Sergey-Bobrovskikh.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/Sergey-Venediktov.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/icon-fb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/icon-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/img-bracket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/ndvi_mask_S2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/research_icon_LP.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/img/tools_icon_LP.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/app.56b09becc2702ec4af08.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/libs.56b09becc2702ec4af08.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/libs.56b09becc2702ec4af08.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/components/workers/workers.component.html" afterPath="$PROJECT_DIR$/assets/components/workers/workers.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/libs.90745a21c108e25c10ec857d2df7a361.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/app.2113815fd36ade12cc91.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/libs.2113815fd36ade12cc91.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/libs.2113815fd36ade12cc91.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/components/workers/workers.component.ts" afterPath="$PROJECT_DIR$/assets/components/workers/workers.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/worker.less" afterPath="$PROJECT_DIR$/assets/styles/worker.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
     </list>
     <ignored path="owm-command-page.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,68 +35,98 @@
       <file leaf-file-name="worker-popup.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/styles/worker-popup.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="399">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/styles/styles.less">
+      <file leaf-file-name="app.component.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="273">
+              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="worker.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="workers.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/styles/workers.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="worker.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/styles/worker.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="907">
+              <caret line="171" column="7" lean-forward="false" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-nav.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/styles/main-nav.less">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-716">
-              <caret line="164" column="2" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
+            <state relative-caret-position="231">
+              <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="438">
-              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+              <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-nav.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/components/main-nav/main-nav.component.ts">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+            <state relative-caret-position="168">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workers.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.html">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="189">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workers.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workers.component.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -175,7 +151,8 @@
       <find>$</find>
       <find>mainSliderLink</find>
       <find>params</find>
-      <find>params</find>
+      <find>.worker-popup</find>
+      <find>(5n</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -225,7 +202,6 @@
         <option value="$PROJECT_DIR$/assets/components/workers/worders.component.html" />
         <option value="$PROJECT_DIR$/assets/libs.ts" />
         <option value="$PROJECT_DIR$/assets/components/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/assets/components/workers/workers.component.ts" />
         <option value="$PROJECT_DIR$/assets/styles/styles.less" />
         <option value="$PROJECT_DIR$/assets/styles/workers.less" />
         <option value="$PROJECT_DIR$/assets/components/workers/workers.component.less" />
@@ -234,11 +210,12 @@
         <option value="$PROJECT_DIR$/assets/styles/toggle.less" />
         <option value="$PROJECT_DIR$/assets/components/main-nav/main-nav.component.less" />
         <option value="$PROJECT_DIR$/assets/components/main-nav/main-nav.component.ts" />
-        <option value="$PROJECT_DIR$/assets/styles/worker.less" />
         <option value="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/index.html" />
         <option value="$PROJECT_DIR$/assets/styles/worker-popup.less" />
         <option value="$PROJECT_DIR$/assets/components/workers/workers.component.html" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/assets/components/workers/workers.component.ts" />
+        <option value="$PROJECT_DIR$/assets/styles/worker.less" />
       </list>
     </option>
   </component>
@@ -252,20 +229,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1932" />
-    <option name="height" value="1092" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -282,31 +247,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-leaflet-starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -316,11 +290,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -334,33 +308,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index.jade" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -378,11 +330,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -394,9 +346,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-leaflet-starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-leaflet-starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -411,6 +384,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -439,7 +413,7 @@
     <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
       <option name="cucumberJsArguments" value="" />
       <option name="executablePath" />
-      <option name="filePath" value="C:\xampp\htdocs\OpenWeatherMap\owm-command-page\assets\components\features" />
+      <option name="filePath" value="C:/xampp/htdocs/OpenWeatherMap/owm-command-page/assets/components/features" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -452,7 +426,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -490,33 +464,34 @@
       <workItem from="1484645268608" duration="8344000" />
       <workItem from="1484657872047" duration="9197000" />
       <workItem from="1484670914202" duration="3960000" />
+      <workItem from="1484684522349" duration="2722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46530000" />
+    <option name="totallyTimeSpent" value="49252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1092" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22413793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22380953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29528797" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,31 +513,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/components/vane-language/vane-language.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/components/vane-language/vane-language.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/mainpage-btn.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-679">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -570,56 +538,56 @@
     <entry file="file://$PROJECT_DIR$/assets/components/vane-language/vane-language.component.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/subscribe.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/components/subscribe/subscribe.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/typings/require.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/components/subscribe/subscribe.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/main-slider.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
-          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+          <caret line="59" column="43" lean-forward="false" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/components/subscribe/subscribe.component.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="38" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/components/navigator/navigator.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -629,31 +597,24 @@
     <entry file="file://$PROJECT_DIR$/assets/components/main-slider/main-slider.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/bootstrap.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#0#73#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/mainpage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3014">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+          <caret line="137" column="17" lean-forward="false" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -661,68 +622,25 @@
     <entry file="file://$PROJECT_DIR$/assets/components/main-slider/main-slider.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/components/main-slider/main-slider.component.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/libs.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/workers.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/css/libs.eb2a8a48a30874751bfae1024a0d9470.css" />
-    <entry file="file://$PROJECT_DIR$/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/js/app.5cc7b751c5cc93f0407a.bundle.js" />
     <entry file="file://$PROJECT_DIR$/build/css/libs.88494470d2f8f1c0a45300389e8f30f1.css" />
     <entry file="file://$PROJECT_DIR$/build/js/libs.b20ec0099aeadd636f96.bundle.js" />
@@ -730,23 +648,21 @@
     <entry file="file://$PROJECT_DIR$/assets/jade/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-          <folding />
+          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/components/main-nav/main-nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="28" />
-          <folding />
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/toggle.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -754,111 +670,46 @@
     <entry file="file://$PROJECT_DIR$/assets/components/main-nav/main-nav.component.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/components/main-nav/main-nav.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        <state relative-caret-position="462">
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/main-nav.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-716">
-          <caret line="164" column="2" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
+        <state relative-caret-position="3444">
+          <caret line="164" column="2" lean-forward="false" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/app.09a2ff266a75962a3057.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="5" column="1030" selection-start-line="0" selection-start-column="0" selection-end-line="128" selection-end-column="30022" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/libs.09a2ff266a75962a3057.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="1" column="2686" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="13522" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/css/libs.edeb24d250abf2ebaac5732520e3fd49.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="0" column="1341" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15749" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/worker.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/app.09a2ff266a75962a3057.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/index.html" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/libs.09a2ff266a75962a3057.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/css/libs.edeb24d250abf2ebaac5732520e3fd49.css" />
     <entry file="file://$PROJECT_DIR$/assets/styles/styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="189">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/css/libs.897e707b0c99e6445588c1a37ae62cad.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="0" column="2749" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15995" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/app.56b09becc2702ec4af08.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="11" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="128" selection-end-column="30022" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/libs.56b09becc2702ec4af08.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="1" column="3345" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="13522" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/worker-popup.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/css/libs.897e707b0c99e6445588c1a37ae62cad.css" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/app.56b09becc2702ec4af08.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/libs.56b09becc2702ec4af08.bundle.js" />
     <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="63">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -866,7 +717,87 @@
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/libs.90745a21c108e25c10ec857d2df7a361.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="0" column="15069" lean-forward="false" selection-start-line="0" selection-start-column="15066" selection-end-line="0" selection-end-column="15069" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/worker-popup.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/workers.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/worker.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="171" column="7" lean-forward="false" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="7" />
           <folding />
         </state>
       </provider>

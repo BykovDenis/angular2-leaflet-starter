@@ -62,6 +62,7 @@
 	var vane_language_component_1 = __webpack_require__(35);
 	var subscribe_component_1 = __webpack_require__(37);
 	var main_slider_component_1 = __webpack_require__(39);
+	var workers_component_1 = __webpack_require__(41);
 	var AppModule = (function () {
 	    function AppModule() {
 	    }
@@ -78,6 +79,7 @@
 	            vane_language_component_1.VaneLanguageComponent,
 	            subscribe_component_1.SubscribeComponent,
 	            main_slider_component_1.MainSliderComponent,
+	            workers_component_1.WorkersComponent,
 	            app_component_1.AppComponent
 	        ]
 	    })
@@ -56669,7 +56671,7 @@
 /* 28 */
 /***/ (function(module, exports) {
 
-	module.exports = "<header class=\"main-header\">\n    <main-nav></main-nav>\n</header>\n<main class=\"main\">\n    <main-slider></main-slider>\n    <features></features>\n    <vane-language></vane-language>\n    <subscribe></subscribe>\n</main>\n<main-footer></main-footer>\n\n"
+	module.exports = "<header class=\"main-header\">\r\n    <main-nav></main-nav>\r\n</header>\r\n<main class=\"main\">\r\n    <workers></workers>\r\n</main>\r\n<main-footer></main-footer>\r\n\r\n"
 
 /***/ }),
 /* 29 */
@@ -56704,7 +56706,7 @@
 /* 30 */
 /***/ (function(module, exports) {
 
-	module.exports = "<header class=\"main-header\">\n    <div class=\"main-header__layout\">\n        <nav class=\"main-nav\"><a href=\"#\" class=\"main-nav__logo\">VANE Geospatial Platform</a>\n            <div id=\"toggle-nav\" class=\"main-nav__toggle toggle\"><span class=\"toggle__line\"></span><span class=\"toggle__line\"></span><span class=\"toggle__line\"></span></div>\n            <ul class=\"main-nav__items\">\n                <li id=\"menu-vane\" class=\"main-nav__item\"><a href=\"#\" class=\"main-nav__link\">VANE Query Language<span class=\"icon icon__caret-down\"></span></a>\n                    <ul class=\"main-nav__sub-items main-nav__sub-items--vane\">\n                        <li class=\"main-nav__sub-item\"><a href=\"/vaneLanguage\" class=\"main-nav__sub-link\">VANE Query Language specs</a></li>\n                        <li class=\"main-nav__sub-item\"><a href=\"/beautiful-vane\" class=\"main-nav__sub-link\">Showcase</a></li>\n                        <li class=\"main-nav__sub-item\"><a href=\"/cases/ChangeDetection\" class=\"main-nav__sub-link\">Change Detection</a></li>\n                        <li class=\"main-nav__sub-item\"><a href=\"/sql-viewer?select=b5,b4&amp;where=day=2016-200&amp;op=ndvi&amp;lon=-102.21&amp;lat=34.3264&amp;zoom=12\" class=\"main-nav__sub-link\">Query Viewer</a></li>\n                    </ul>\n                </li>\n                <li class=\"main-nav__item\"><a href=\"/jupyter/start\" class=\"main-nav__link\">Jupyter</a></li>\n                <li id=\"menu-maps\" class=\"main-nav__item\"><a href=\"#\" class=\"main-nav__link\">Maps<span class=\"icon icon__caret-down\"></span></a>\n                    <ul class=\"main-nav__sub-items main-nav__sub-items--maps\">\n                        <li class=\"main-nav__sub-item\"><a href=\"/mosaic\" class=\"main-nav__sub-link\">Mosaic map</a></li>\n                        <li class=\"main-nav__sub-item\"><a href=\"/ndvi\" class=\"main-nav__sub-link\">NDVI maps</a></li>\n                        <li class=\"main-nav__sub-item\"><a href=\"/finder\" class=\"main-nav__sub-link\">Scenes finder</a></li>\n                        <li class=\"main-nav__sub-item\"><a href=\"/weathermap\" class=\"main-nav__sub-link\">Weather maps</a></li>\n                        <li class=\"main-nav__sub-item\"><a href=\"/beautiful_maps\" class=\"main-nav__sub-link\">Beautiful maps</a></li>\n                    </ul>\n                </li>\n                <li class=\"main-nav__item\"><a href=\"/news\" class=\"main-nav__link\">News</a></li>\n                <li class=\"main-nav__item\"><a href=\"/about\" class=\"main-nav__link\">About</a></li>\n            </ul>\n        </nav>\n    </div>\n</header>"
+	module.exports = "<header class=\"main-header\">\r\n    <div class=\"main-header__layout\">\r\n        <nav class=\"main-nav\"><a href=\"#\" class=\"main-nav__logo\">VANE Geospatial Platform</a>\r\n            <div id=\"toggle-nav\" class=\"main-nav__toggle toggle\"><span class=\"toggle__line\"></span><span class=\"toggle__line\"></span><span class=\"toggle__line\"></span></div>\r\n            <ul class=\"main-nav__items\">\r\n                <li id=\"menu-vane\" class=\"main-nav__item\"><a href=\"#\" class=\"main-nav__link\">VANE Query Language<span class=\"icon icon__caret-down\"></span></a>\r\n                    <ul class=\"main-nav__sub-items main-nav__sub-items--vane\">\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/vaneLanguage\" class=\"main-nav__sub-link\">VANE Query Language specs</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/beautiful-vane\" class=\"main-nav__sub-link\">Showcase</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/cases/ChangeDetection\" class=\"main-nav__sub-link\">Change Detection</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/sql-viewer?select=b5,b4&amp;where=day=2016-200&amp;op=ndvi&amp;lon=-102.21&amp;lat=34.3264&amp;zoom=12\" class=\"main-nav__sub-link\">Query Viewer</a></li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"main-nav__item\"><a href=\"/jupyter/start\" class=\"main-nav__link\">Jupyter</a></li>\r\n                <li id=\"menu-maps\" class=\"main-nav__item\"><a href=\"#\" class=\"main-nav__link\">Maps<span class=\"icon icon__caret-down\"></span></a>\r\n                    <ul class=\"main-nav__sub-items main-nav__sub-items--maps\">\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/mosaic\" class=\"main-nav__sub-link\">Mosaic map</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/ndvi\" class=\"main-nav__sub-link\">NDVI maps</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/finder\" class=\"main-nav__sub-link\">Scenes finder</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/weathermap\" class=\"main-nav__sub-link\">Weather maps</a></li>\r\n                        <li class=\"main-nav__sub-item\"><a href=\"/beautiful_maps\" class=\"main-nav__sub-link\">Beautiful maps</a></li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"main-nav__item\"><a href=\"/news\" class=\"main-nav__link\">News</a></li>\r\n                <li class=\"main-nav__item\"><a href=\"/about\" class=\"main-nav__link\">About</a></li>\r\n            </ul>\r\n        </nav>\r\n    </div>\r\n</header>"
 
 /***/ }),
 /* 31 */
@@ -56738,7 +56740,7 @@
 /* 32 */
 /***/ (function(module, exports) {
 
-	module.exports = "<footer class=\"main-footer\">\n    <div class=\"main-footer__layout\">\n        <div class=\"main-footer__items\">\n            <div class=\"main-footer__item\">  500.000+  developers<br>  work with our services</div>\n            <div class=\"main-footer__item\">  1 billion+ weather forecasts<br>  we produce daily</div>\n            <div class=\"main-footer__item\">  500+ Gb of satellite data<br>  we process daily</div>\n        </div>\n        <div class=\"main-footer__items\">\n            <div class=\"main-footer__copyright\">Powered by OpenWeatherMap, Inc</div>\n            <div class=\"main-footer__contacts\">\n                <span class=\"main-footer__contact\">\n                    <a href=\"https://openweathermap.desk.com/customer/portal/emails/new\" target=\"_blank\" class=\"main-footer__link\">Contact us</a>\n                </span>\n                <span class=\"main-footer__contact\">\n                    <a href=\"http://openweathermap.org/terms\" target=\"_blank\" class=\"main-footer__link\">Terms of use</a>\n                </span>\n                <span class=\"main-footer__socials\"><a href=\"https://www.linkedin.com/company/9816754\" class=\"icon-social icon-social__in\"><img src=\"img/icon-in.png\" width=\"32\" height=\"32\" alt=\"instagram\"></a><a href=\"https://www.facebook.com/groups/270748973021342\" class=\"icon-social icon-social__fb\"><img src=\"img/icon-fb.png\" width=\"32\" height=\"32\" alt=\"facebook\"></a></span></div>\n        </div>\n    </div>\n</footer>"
+	module.exports = "<footer class=\"main-footer\">\r\n    <div class=\"main-footer__layout\">\r\n        <div class=\"main-footer__items\">\r\n            <div class=\"main-footer__item\">  500.000+  developers<br>  work with our services</div>\r\n            <div class=\"main-footer__item\">  1 billion+ weather forecasts<br>  we produce daily</div>\r\n            <div class=\"main-footer__item\">  500+ Gb of satellite data<br>  we process daily</div>\r\n        </div>\r\n        <div class=\"main-footer__items\">\r\n            <div class=\"main-footer__copyright\">Powered by OpenWeatherMap, Inc</div>\r\n            <div class=\"main-footer__contacts\">\r\n                <span class=\"main-footer__contact\">\r\n                    <a href=\"https://openweathermap.desk.com/customer/portal/emails/new\" target=\"_blank\" class=\"main-footer__link\">Contact us</a>\r\n                </span>\r\n                <span class=\"main-footer__contact\">\r\n                    <a href=\"http://openweathermap.org/terms\" target=\"_blank\" class=\"main-footer__link\">Terms of use</a>\r\n                </span>\r\n                <span class=\"main-footer__socials\"><a href=\"https://www.linkedin.com/company/9816754\" class=\"icon-social icon-social__in\"><img src=\"img/icon-in.png\" width=\"32\" height=\"32\" alt=\"instagram\"></a><a href=\"https://www.facebook.com/groups/270748973021342\" class=\"icon-social icon-social__fb\"><img src=\"img/icon-fb.png\" width=\"32\" height=\"32\" alt=\"facebook\"></a></span></div>\r\n        </div>\r\n    </div>\r\n</footer>"
 
 /***/ }),
 /* 33 */
@@ -56771,7 +56773,7 @@
 /* 34 */
 /***/ (function(module, exports) {
 
-	module.exports = "<section class=\"features\">\n    <div class=\"features__layout\">\n        <ul class=\"features__items\">\n            <li class=\"features__item\"><img src=\"img/img-bracket.svg\" alt=\"Vane Language\" width=\"64\" height=\"48\" class=\"features__image\">\n                <p class=\"features__title\">BUILD APPS</p>\n                <p class=\"features__description\">SQL fashioned<span class=\"features__item-note\">&nbsp;VANE LANGUAGE&nbsp;</span>for intuitive queries to the environmantal data, getting in instantly into application</p><a href=\"#\" class=\"mainpage-btn mainpage-btn--schema\">CONSTRUCT A QUERY</a>\n            </li>\n            <li class=\"features__item\"><img src=\"img/research_icon_LP.png\" width=\"48\" height=\"48\" alt=\"Environmental Data\" class=\"features__image\">\n                <p class=\"features__title\">MAKE A RESEARCH</p>\n                <p class=\"features__description\">VANE  analytical tools for online computing and data processing</p><a href=\"#\" class=\"mainpage-btn mainpage-btn--schema\">GETTING STARTED WITH JUPYTER</a>\n            </li>\n            <li class=\"features__item\"><img src=\"img/tools_icon_LP.png\" width=\"48\" height=\"48\" alt=\"Data Science Tools\" class=\"features__image\">\n                <p class=\"features__title\">VISUAL TOOLS</p>\n                <p class=\"features__description\">Get an immediate result with our ready-to-use examples and weather maps. Customize your own map style to embed map tiles into your app</p><a href=\"#\" class=\"mainpage-btn mainpage-btn--schema\">GO TO VANE SHOWCASE</a>\n            </li>\n        </ul>\n    </div>\n</section>"
+	module.exports = "<section class=\"features\">\r\n    <div class=\"features__layout\">\r\n        <ul class=\"features__items\">\r\n            <li class=\"features__item\"><img src=\"img/img-bracket.svg\" alt=\"Vane Language\" width=\"64\" height=\"48\" class=\"features__image\">\r\n                <p class=\"features__title\">BUILD APPS</p>\r\n                <p class=\"features__description\">SQL fashioned<span class=\"features__item-note\">&nbsp;VANE LANGUAGE&nbsp;</span>for intuitive queries to the environmantal data, getting in instantly into application</p><a href=\"#\" class=\"mainpage-btn mainpage-btn--schema\">CONSTRUCT A QUERY</a>\r\n            </li>\r\n            <li class=\"features__item\"><img src=\"img/research_icon_LP.png\" width=\"48\" height=\"48\" alt=\"Environmental Data\" class=\"features__image\">\r\n                <p class=\"features__title\">MAKE A RESEARCH</p>\r\n                <p class=\"features__description\">VANE  analytical tools for online computing and data processing</p><a href=\"#\" class=\"mainpage-btn mainpage-btn--schema\">GETTING STARTED WITH JUPYTER</a>\r\n            </li>\r\n            <li class=\"features__item\"><img src=\"img/tools_icon_LP.png\" width=\"48\" height=\"48\" alt=\"Data Science Tools\" class=\"features__image\">\r\n                <p class=\"features__title\">VISUAL TOOLS</p>\r\n                <p class=\"features__description\">Get an immediate result with our ready-to-use examples and weather maps. Customize your own map style to embed map tiles into your app</p><a href=\"#\" class=\"mainpage-btn mainpage-btn--schema\">GO TO VANE SHOWCASE</a>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n</section>"
 
 /***/ }),
 /* 35 */
@@ -56804,7 +56806,7 @@
 /* 36 */
 /***/ (function(module, exports) {
 
-	module.exports = "<section class=\"vane-language\">\n    <div class=\"vane-language__layout\">\n        <h2 class=\"vane-language__title\" id=\"showcase\">  VANE Query Language</h2>\n        <div class=\"vane-language__description\">   Construct queries for satellite images using essential processing formulas - simple coding and instant visual result</div>\n        <div class=\"vane-language-table\">\n            <div class=\"vane-language-table__row\">\n                <h3 class=\"vane-language-table__col vane-language-table__col-title\">RGB mosaic</h3>\n                <div class=\"vane-language-table__col vane-language-table__col-description\">Get satellite maps with custom date or color parameters. Connect it to any popular web mappning library like Leaflet or Openlayers</div>\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"http://sat.owm.io/sql/9/143/218?order=best&amp;appid=9de243494c0b295cca9337e1e96b00e2\" alt=\"RGB mosaic\" class=\"vane-language__img vane-language__img-top\"><img src=\"http://sat.owm.io/rgb/S2B4/S2B3/S2B2/13/5350/3505?time=2016-360&amp;hi=3000&amp;low=0&amp;appid=9de243494c0b295cca9337e1e96b00e2\" alt=\"RGB mosaic\" class=\"vane-language__img vane-language__img-bottom\"></div>\n            </div>\n            <div class=\"vane-language-table__row\">\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"img/ndvi_mask_S2.jpg\" alt=\"Vegetation index\" width=\"350\" height=\"300\" class=\"vane-language__img\"></div>\n                <div class=\"vane-language-table__col\">\n                    <h3 class=\"vane-language-table__col vane-language-table__col-title\">Get vegetation index by polygon</h3>\n                    <div class=\"vane-language-table__col-description\">Get vegetation maps by polygon coordinates to monitor crops growth for agriculture application. Send ZXY queries for raster tiles or fetch JSON to analyse NDVI and weather dynamics</div>\n                </div>\n            </div>\n            <div class=\"vane-language-table__row\">\n                <div class=\"vane-language-table__col\">\n                    <h3 class=\"vane-language-table__col-title\">Change detection</h3>\n                    <div class=\"vane-language-table__col-description\">Calculate a difference between two images before and after the certain event or within a date interval</div>\n                </div>\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"http://a.sat.owm.io/sql/11/333/738?appid=9de243494c0b295cca9337e1e96b00e2&amp;select=b7,b5,b3&amp;where=day:2015-263&amp;from=&amp;order=&amp;color=&amp;op=\" alt=\"Change detection\" class=\"vane-language__img vane-language__img-top\"><img src=\"http://a.sat.owm.io/sql/11/333/738?appid=9de243494c0b295cca9337e1e96b00e2&amp;where=between(2015-199:2015-263)&amp;color=0.01:f7eebb00;0.05:f7eebb00;1:fc4163ff&amp;select=b7,b5&amp;op=change&amp;\" alt=\"Change detection\" class=\"vane-language__img vane-language__img-bottom\" style=\"background:rgba(255, 255, 255, 0.7);     border: 1px solid #bbb;\"></div>\n            </div>\n            <div class=\"vane-language-table__row\">\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"https://map1a.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2017-01-15/GoogleMapsCompatible_Level9/4/6/2.jpg\" alt=\"Get weather maps along with satellite mosaics\" class=\"vane-language__img vane-language__img-top\"><img src=\"http://b.maps.owm.io:8099/579e5d08946d8a0100852a1b/4/4/6?hash=6cebb514e0ed3063cd8cd1293f82e752&amp;rnd=0.5048475149907854\" alt=\"Get weather maps along with satellite mosaics\" class=\"vane-language__img vane-language__img-bottom\"></div>\n                <div class=\"vane-language-table__col vane-language-table__col-description\">Make your combination of operative satellite mosiacs and custom styled weather maps. Get them bundled in one tile layer</div>\n                <h2 class=\"vane-language-table__col vane-language-table__col-title\">Get weather maps along with satellite mosaics</h2>\n            </div>\n        </div>\n        <div class=\"vane-language__layout-btn\"><a href=\"/get\" class=\"mainpage-btn mainpage-btn--schema\">Get API</a></div>\n    </div>\n</section>"
+	module.exports = "<section class=\"vane-language\">\r\n    <div class=\"vane-language__layout\">\r\n        <h2 class=\"vane-language__title\" id=\"showcase\">  VANE Query Language</h2>\r\n        <div class=\"vane-language__description\">   Construct queries for satellite images using essential processing formulas - simple coding and instant visual result</div>\r\n        <div class=\"vane-language-table\">\r\n            <div class=\"vane-language-table__row\">\r\n                <h3 class=\"vane-language-table__col vane-language-table__col-title\">RGB mosaic</h3>\r\n                <div class=\"vane-language-table__col vane-language-table__col-description\">Get satellite maps with custom date or color parameters. Connect it to any popular web mappning library like Leaflet or Openlayers</div>\r\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"http://sat.owm.io/sql/9/143/218?order=best&amp;appid=9de243494c0b295cca9337e1e96b00e2\" alt=\"RGB mosaic\" class=\"vane-language__img vane-language__img-top\"><img src=\"http://sat.owm.io/rgb/S2B4/S2B3/S2B2/13/5350/3505?time=2016-360&amp;hi=3000&amp;low=0&amp;appid=9de243494c0b295cca9337e1e96b00e2\" alt=\"RGB mosaic\" class=\"vane-language__img vane-language__img-bottom\"></div>\r\n            </div>\r\n            <div class=\"vane-language-table__row\">\r\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"img/ndvi_mask_S2.jpg\" alt=\"Vegetation index\" width=\"350\" height=\"300\" class=\"vane-language__img\"></div>\r\n                <div class=\"vane-language-table__col\">\r\n                    <h3 class=\"vane-language-table__col vane-language-table__col-title\">Get vegetation index by polygon</h3>\r\n                    <div class=\"vane-language-table__col-description\">Get vegetation maps by polygon coordinates to monitor crops growth for agriculture application. Send ZXY queries for raster tiles or fetch JSON to analyse NDVI and weather dynamics</div>\r\n                </div>\r\n            </div>\r\n            <div class=\"vane-language-table__row\">\r\n                <div class=\"vane-language-table__col\">\r\n                    <h3 class=\"vane-language-table__col-title\">Change detection</h3>\r\n                    <div class=\"vane-language-table__col-description\">Calculate a difference between two images before and after the certain event or within a date interval</div>\r\n                </div>\r\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"http://a.sat.owm.io/sql/11/333/738?appid=9de243494c0b295cca9337e1e96b00e2&amp;select=b7,b5,b3&amp;where=day:2015-263&amp;from=&amp;order=&amp;color=&amp;op=\" alt=\"Change detection\" class=\"vane-language__img vane-language__img-top\"><img src=\"http://a.sat.owm.io/sql/11/333/738?appid=9de243494c0b295cca9337e1e96b00e2&amp;where=between(2015-199:2015-263)&amp;color=0.01:f7eebb00;0.05:f7eebb00;1:fc4163ff&amp;select=b7,b5&amp;op=change&amp;\" alt=\"Change detection\" class=\"vane-language__img vane-language__img-bottom\" style=\"background:rgba(255, 255, 255, 0.7);     border: 1px solid #bbb;\"></div>\r\n            </div>\r\n            <div class=\"vane-language-table__row\">\r\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"https://map1a.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2017-01-15/GoogleMapsCompatible_Level9/4/6/2.jpg\" alt=\"Get weather maps along with satellite mosaics\" class=\"vane-language__img vane-language__img-top\"><img src=\"http://b.maps.owm.io:8099/579e5d08946d8a0100852a1b/4/4/6?hash=6cebb514e0ed3063cd8cd1293f82e752&amp;rnd=0.5048475149907854\" alt=\"Get weather maps along with satellite mosaics\" class=\"vane-language__img vane-language__img-bottom\"></div>\r\n                <div class=\"vane-language-table__col vane-language-table__col-description\">Make your combination of operative satellite mosiacs and custom styled weather maps. Get them bundled in one tile layer</div>\r\n                <h2 class=\"vane-language-table__col vane-language-table__col-title\">Get weather maps along with satellite mosaics</h2>\r\n            </div>\r\n        </div>\r\n        <div class=\"vane-language__layout-btn\"><a href=\"/get\" class=\"mainpage-btn mainpage-btn--schema\">Get API</a></div>\r\n    </div>\r\n</section>"
 
 /***/ }),
 /* 37 */
@@ -56837,13 +56839,13 @@
 /* 38 */
 /***/ (function(module, exports) {
 
-	module.exports = "<section id=\"mc_embed_signup\" class=\"subscribe\">\n    <div class=\"subscribe__layout\">\n        <h4 class=\"subscribe__title\">We are updating constantly: adding new data, writing how-tos, cases etc. - stay tuned!</h4>\n        <form id=\"mc-embedded-subscribe-form\" action=\"//openweathermap.us14.list-manage.com/subscribe/post?u=0cc0420e48c25767a78de8d6b&amp;id=68aee41eb1\" method=\"post\" name=\"mc-embedded-subscribe-form\" target=\"_blank\" novalidate=\"novalidate\" class=\"validate subscribe__form\">\n            <div id=\"mc_embed_signup_scroll\">\n                <div class=\"mc-field-group\">\n                    <label for=\"mce-EMAIL\" class=\"subscribe__email-label\">Email</label>\n                    <input id=\"mce-EMAIL\" type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email subscribe__email\" aria-required=\"true\">\n                </div>\n                <div id=\"mce-responses\" class=\"clear\">\n                    <div id=\"mce-error-response\" style=\"display:none\" class=\"response\"></div>\n                    <div id=\"mce-success-response\" style=\"display:none\" class=\"response\"></div>\n                </div>\n                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n                <div style=\"position: absolute; left: -5000px\" aria-hidden=\"true\">\n                    <input type=\"text\" name=\"b_0cc0420e48c25767a78de8d6b_68aee41eb1\" tabindex=\"-1\" value=\"\" class=\"subscribe__email\">\n                </div>\n                <div class=\"clear\">\n                    <input id=\"mc-embedded-subscribe\" type=\"submit\" value=\"SUBSCRIBE TO OUR NEWS LETTER\" name=\"subscribe\" class=\"button mainpage-btn mainpage-btn--schema\">\n                </div>\n            </div>\n        </form>\n    </div>\n</section>"
+	module.exports = "<section id=\"mc_embed_signup\" class=\"subscribe\">\r\n    <div class=\"subscribe__layout\">\r\n        <h4 class=\"subscribe__title\">We are updating constantly: adding new data, writing how-tos, cases etc. - stay tuned!</h4>\r\n        <form id=\"mc-embedded-subscribe-form\" action=\"//openweathermap.us14.list-manage.com/subscribe/post?u=0cc0420e48c25767a78de8d6b&amp;id=68aee41eb1\" method=\"post\" name=\"mc-embedded-subscribe-form\" target=\"_blank\" novalidate=\"novalidate\" class=\"validate subscribe__form\">\r\n            <div id=\"mc_embed_signup_scroll\">\r\n                <div class=\"mc-field-group\">\r\n                    <label for=\"mce-EMAIL\" class=\"subscribe__email-label\">Email</label>\r\n                    <input id=\"mce-EMAIL\" type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email subscribe__email\" aria-required=\"true\">\r\n                </div>\r\n                <div id=\"mce-responses\" class=\"clear\">\r\n                    <div id=\"mce-error-response\" style=\"display:none\" class=\"response\"></div>\r\n                    <div id=\"mce-success-response\" style=\"display:none\" class=\"response\"></div>\r\n                </div>\r\n                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\r\n                <div style=\"position: absolute; left: -5000px\" aria-hidden=\"true\">\r\n                    <input type=\"text\" name=\"b_0cc0420e48c25767a78de8d6b_68aee41eb1\" tabindex=\"-1\" value=\"\" class=\"subscribe__email\">\r\n                </div>\r\n                <div class=\"clear\">\r\n                    <input id=\"mc-embedded-subscribe\" type=\"submit\" value=\"SUBSCRIBE TO OUR NEWS LETTER\" name=\"subscribe\" class=\"button mainpage-btn mainpage-btn--schema\">\r\n                </div>\r\n            </div>\r\n        </form>\r\n    </div>\r\n</section>"
 
 /***/ }),
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
 	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
 	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -56869,7 +56871,132 @@
 /* 40 */
 /***/ (function(module, exports) {
 
-	module.exports = "<section class=\"main-slider\">\n    <a href=\"http://owm.io\" class=\"main-slider__link\">\n        <!-- img.main-slider__image(src='themes/owm/assets/img/image-slider-mosaic.jpg' width=\"3360\" alt='Vane platform')-->\n        <div id=\"map1\" class=\"main-slider__map main-slider__map--map1\"></div>\n        <div id=\"map2\" class=\"main-slider__map main-slider__map--map2\"></div>\n        <div id=\"map3\" class=\"main-slider__map main-slider__map--map3\"></div>\n    </a>\n    <div class=\"main-slider__layout\">\n        <h2 class=\"main-slider__title\">Vane Platform</h2>\n        <p class=\"main-slider__description\">Simple and fast access to environmental <br> data for development of new applications</p><a href=\"/vaneLanguage\" target=\"_blank\" class=\"mainpage-btn main-slider__btn\">Try for free</a>\n    </div>\n    <ul id=\"controls\" class=\"main-slider__controls\">\n        <label class=\"main-slider__label\">\n            <input type=\"radio\" name=\"slide\" checked=\"true\" class=\"main-slider__radio\"><a id=\"slide0\" href=\"/vaneLanguage\" class=\"main-slider__control\"></a>\n        </label>\n        <label class=\"main-slider__label\">\n            <input type=\"radio\" name=\"slide\" class=\"main-slider__radio\"><a id=\"slide1\" href=\"/vaneLanguage\" class=\"main-slider__control\"></a>\n        </label>\n        <label class=\"main-slider__label\">\n            <input type=\"radio\" name=\"slide\" class=\"main-slider__radio\"><a id=\"slide2\" href=\"/vaneLanguage\" class=\"main-slider__control\"></a>\n        </label>\n    </ul>\n</section>"
+	module.exports = "<section class=\"main-slider\">\r\n    <a href=\"http://owm.io\" class=\"main-slider__link\">\r\n        <!-- img.main-slider__image(src='themes/owm/assets/img/image-slider-mosaic.jpg' width=\"3360\" alt='Vane platform')-->\r\n        <div id=\"map1\" class=\"main-slider__map main-slider__map--map1\"></div>\r\n        <div id=\"map2\" class=\"main-slider__map main-slider__map--map2\"></div>\r\n        <div id=\"map3\" class=\"main-slider__map main-slider__map--map3\"></div>\r\n    </a>\r\n    <div class=\"main-slider__layout\">\r\n        <h2 class=\"main-slider__title\">Vane Platform</h2>\r\n        <p class=\"main-slider__description\">Simple and fast access to environmental <br> data for development of new applications</p><a href=\"/vaneLanguage\" target=\"_blank\" class=\"mainpage-btn main-slider__btn\">Try for free</a>\r\n    </div>\r\n    <ul id=\"controls\" class=\"main-slider__controls\">\r\n        <label class=\"main-slider__label\">\r\n            <input type=\"radio\" name=\"slide\" checked=\"true\" class=\"main-slider__radio\"><a id=\"slide0\" href=\"/vaneLanguage\" class=\"main-slider__control\"></a>\r\n        </label>\r\n        <label class=\"main-slider__label\">\r\n            <input type=\"radio\" name=\"slide\" class=\"main-slider__radio\"><a id=\"slide1\" href=\"/vaneLanguage\" class=\"main-slider__control\"></a>\r\n        </label>\r\n        <label class=\"main-slider__label\">\r\n            <input type=\"radio\" name=\"slide\" class=\"main-slider__radio\"><a id=\"slide2\" href=\"/vaneLanguage\" class=\"main-slider__control\"></a>\r\n        </label>\r\n    </ul>\r\n</section>"
+
+/***/ }),
+/* 41 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var core_1 = __webpack_require__(3);
+	var WorkersComponent = (function () {
+	    function WorkersComponent() {
+	        this.workers = [
+	            {
+	                name: "Olga Ukolova",
+	                post: "CEO",
+	                photo: "Olga-Ukolova.jpg",
+	                experience: "Entrepreneur, founder of the OpenWeatherMap company, one of the world leaders in the weather data market, enthusiast of Geospatial and Big Data technologies with 10+ years expertise in B2B business development management in the IT and high-tech fields."
+	            },
+	            {
+	                name: "Dennis Ukolov",
+	                post: "CTO",
+	                photo: "Dennis-Ukolov.jpg",
+	                experience: "Expert in IT architecture for enterprises, open-source software evangelist, GIS expert, and meteorological enthusiast. Having 15-years experience in IT industry I have founded OpenWeatherMap service and VANE platform to combine cutting edge Big Data technologies and environmental information to create demanded products for vertical markets like the agriculture, security, oil and gas, and others."
+	            },
+	            {
+	                name: "Sergey Venediktov",
+	                post: "COO, team leader",
+	                photo: "Sergey-Venediktov.jpg",
+	                experience: "My main task is organization and control of key processes in the development and support of OpenWeatherMap and VANE Platform products. These include the management of the development team, the construction of the internal processes of interaction of participants of the whole team involved in the development and implementation of strategic plans for the company, performance evaluation."
+	            },
+	            {
+	                name: "Sergey Bobrovskikh",
+	                post: "Backend developer",
+	                photo: "Sergey-Bobrovskikh.jpg",
+	                experience: "I am a backend developer, programming on js, node.js, and golang. I am working in the company since September 2015. During this time I have managed to touch a broad range of tasks: creating tile server, experimented in the field of recognition of objects in the image, making different APIs, developed a tool for editing cards."
+	            },
+	            {
+	                name: "Daria Usova",
+	                post: "Backend developer",
+	                photo: "Daria-Usova.jpg",
+	                experience: "Server-side part of the VANE platform is my area of responsibility: in particular, I design and maintain data ingesting algorithms and develop various methods for on-the-fly satellite image processing. Mainly I use Scala, Akka, Spark and Hadoop as the primary tech stack."
+	            },
+	            {
+	                name: "Mikhail Remizov",
+	                post: "Backend developer",
+	                photo: "Mikhail-Remizov.jpg",
+	                experience: "I am a backend golang developer, and my main tasks include various web-services (for example, 8k+ RPS main API gate and recently launched almost-from-scratch RESTful User Weather Stations API), noSQL, software monitoring, and logging."
+	            },
+	            {
+	                name: "Pedro Gabriel",
+	                post: "Backend developer",
+	                photo: "Pedro-Gabriel.jpg",
+	                experience: "I’m a Ruby on Rails developer at OpenWeatherMap. My main responsibilities are development and support personal account for \"openweathermap.org\", implementing integration PayPal API and other new services to personal account with using BDD/TDD."
+	            },
+	            {
+	                name: "Denis Bykov",
+	                post: "Frontend developer",
+	                photo: "Denis-Bykov.jpg",
+	                experience: "My general duties are Web Development, development of widgets, satellite webtools, and weather services. Experience: Professional growth by performing of problem-solving skills and self-education through reading special literature, attending professional courses and conferences. Skills: Professional stack usage of high-tech frontend development. Learning the industry's trends for better understanding the field of expertise and efficient application development tools."
+	            },
+	            {
+	                name: "Georgy Potapov",
+	                post: "Business Development manager",
+	                photo: "Georgy-Potapov.jpg",
+	                experience: "I have a strong expertise in the area of geoinformatics and remote sensing since he used to work as a project lead in e-navigation and LBS services particular experienced in the development of web-services for disaster management and monitoring of the environment. I am responsible for the overall business development, product development of the VANE geospatial platform, starting new partnerships with satellite data providers and spreading the word about the new methods to work with satellite data."
+	            },
+	            {
+	                name: "Alla Vladimirova",
+	                post: "Key account manager",
+	                photo: "Alla-Vladimirova.jpg",
+	                experience: "I'm a Key account manager at OpenWeatherMap. My main responsibilities: Developing trust relationships with a portfolio of major clients, understanding of key customer needs and requirements, expanding the relationships with existing customers by continuously proposing solutions that meet their objectives, generating new sales that will turn into long-lasting relationships. Work experience with clients is more than 5 years."
+	            },
+	            {
+	                name: "Maxim Guschcho",
+	                post: "Technical Support Engineer",
+	                photo: "Maxim-Guschcho.jpg",
+	                experience: "I am a Technical Support Engineer at OpenWeatherMap. My general duties include analysis of requests from end users, answering their questions, prioritizing cases and resolving bugs, escalation issues (bugs and feature requests) to the developer's team. Also, I moderate content of the website (documentation of provided services) with web developers and business leads. As a part of my job, I also involved in the testing of new features and services."
+	            },
+	            {
+	                name: "Maxim Samokhin",
+	                post: "Technical writer",
+	                photo: "Maxim-Samokhin.jpg",
+	                experience: "I am engaged in writing internal and external documentation for the OpenWeatherMap company. I have an engineering education and background in information technologies, and this experience helps me with my current work. My main advantage is an ability to convey the full, structured and clear information to the user or new employee of the company."
+	            },
+	            {
+	                name: "Olga Makarova",
+	                post: "PR manager",
+	                photo: "Olga-Makarova.jpg",
+	                experience: "I am in charge of informing about the company's activities, writing and distributing of publications and reviews, industry news accommodation in social networks like facebook, google +, twitter and professional web societies. I am managing weather service blog and VANE platform blog writing articles according to media plan of product development and promotion."
+	            },
+	            {
+	                name: "Ekaterina Rubatskaya",
+	                post: "Accounting manager",
+	                photo: "Ekaterina-Rubatskaya.jpg",
+	                experience: "I am providing full accounting support including operations with invoices, preparation of accounting reports, monitoring of cash flow, debt management and control of payment for subscriptions from our customers."
+	            },
+	            {
+	                name: "Dmitriy Kharitonov",
+	                post: "System Administrator",
+	                photo: "Dmitriy-Kharitonov.jpg",
+	                experience: "I am responsible for devops management of distributed IT system of OpenWeatherMap and VANE Platform that consists of hundreds of servers, it is a big data highloaded system that operates with billion of transactions a day."
+	            },
+	        ];
+	    }
+	    return WorkersComponent;
+	}());
+	WorkersComponent = __decorate([
+	    core_1.Component({
+	        selector: "workers",
+	        template: __webpack_require__(42)
+	    })
+	], WorkersComponent);
+	exports.WorkersComponent = WorkersComponent;
+	;
+
+
+/***/ }),
+/* 42 */
+/***/ (function(module, exports) {
+
+	module.exports = "<div class=\"workers\">\r\n    <div class=\"worker\" *ngFor=\"let worker of workers\">\r\n        <div class=\"worker__layout\">\r\n            <img src=\"img/{{worker.photo}}\" class=\"worker__photo\">\r\n            <p class=\"worker__name\">{{worker.name}}</p>\r\n            <p class=\"worker__post\">{{worker.post}}</p>\r\n        </div>\r\n        <div class=\"worker-popup\">\r\n            {{worker.experience}}\r\n        </div>\r\n    </div>\r\n</div>"
 
 /***/ })
 /******/ ]);

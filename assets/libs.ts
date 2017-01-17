@@ -17,5 +17,6 @@ import  "./components/features/features.component.less";
 import  "./components/subscribe/subscribe.component.less";
 import  "./components/vane-language/vane-language.component.less";
 import  "./components/main-footer/main-footer.component.less";
+import  "./components/workers/workers.component.less";
 
 //import  "./components/app/app.component.less";

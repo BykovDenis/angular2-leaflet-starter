@@ -10,6 +10,7 @@ import {FeaturesComponent} from "./components/features/features.component";
 import {VaneLanguageComponent} from "./components/vane-language/vane-language.component";
 import {SubscribeComponent} from "./components/subscribe/subscribe.component";
 import {MainSliderComponent} from "./components/main-slider/main-slider.component";
+import {WorkersComponent} from "./components/workers/workers.component";
 
 @NgModule({
     imports: [FormsModule, BrowserModule],
@@ -21,6 +22,7 @@ import {MainSliderComponent} from "./components/main-slider/main-slider.componen
         VaneLanguageComponent,
         SubscribeComponent,
         MainSliderComponent,
+        WorkersComponent,
         AppComponent
     ]
 })

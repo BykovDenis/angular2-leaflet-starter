@@ -9,8 +9,8 @@ var WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'); // для плагина по минификации и оптимизации css
 
 var srcDir = 'assets';
-var outputDir = 'build/themes/owm/assets/vendor/owm';
-//var outputDir = 'build';
+//var outputDir = 'build/themes/owm/assets/vendor/owm';
+var outputDir = 'build';
 
 module.exports = {
     devtool: "source-map",
@@ -50,10 +50,10 @@ module.exports = {
     },
     plugins: [
         // uncomment this code for production
-         new webpack.optimize.UglifyJsPlugin({
-             sourceMap: false,
-             mangle: true
-        }),
+         //new webpack.optimize.UglifyJsPlugin({
+         //    sourceMap: false,
+         //    mangle: true
+        //}),
         new ExtractTextPlugin("css/[name].[contenthash].css", {allChunks: true}),
         new HtmlWebpackPlugin({
             inject: true,

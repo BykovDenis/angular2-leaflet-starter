@@ -1,0 +1,56 @@
+.vane-language{
+
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+
+  &__layout{
+    max-width: @layout-width;
+    margin:0 auto;
+  }
+
+  &__layout-btn{
+    margin: 0 auto;
+    width: 150px;
+  }
+
+  &__title{
+    font: 500 ((@base-font-size * 2 - 4px)) / 1.4 @font-opensans;
+    color: @base-font-color;
+  }
+
+  &__description{
+    font: 400 ((@base-font-size)) / 1 @font-opensans;
+    color: @base-font-color;
+    margin-bottom: 40px;
+  }
+
+  &__img{
+    width:  256px;
+    height: 256px;
+  }
+
+  &__img-bottom{
+    position:absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  &__email{
+    border:0;
+    border-bottom: 1px solid #9999FF;
+    margin-bottom: 10px;
+    outline: 0;
+    text-transform: uppercase;
+  }
+
+  &__form{
+    width: 500px;
+    margin: 10px auto !important;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+}

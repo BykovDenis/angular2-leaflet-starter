@@ -48,19 +48,26 @@
 	/// <reference path="./typings/require.d.ts"/>
 	"use strict";
 	//import "leaflet";
-	__webpack_require__(33);
-	__webpack_require__(35);
-	__webpack_require__(36);
+	__webpack_require__(41);
+	__webpack_require__(43);
+	__webpack_require__(44);
+	__webpack_require__(45);
 	//import "../node_modules/bootstrap/dist/css/bootstrap.css";
 	//import "../node_modules/font-awesome/css/font-awesome.css";
 	//import "../node_modules/leaflet/dist/leaflet.css";
-	__webpack_require__(37);
-	__webpack_require__(38);
+	__webpack_require__(46);
+	__webpack_require__(47);
+	__webpack_require__(48);
+	__webpack_require__(49);
+	__webpack_require__(50);
+	__webpack_require__(51);
+	__webpack_require__(52);
+	//import  "./components/app/app.component.less"; 
 
 
 /***/ },
 
-/***/ 33:
+/***/ 41:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, process) {/**
@@ -1845,11 +1852,11 @@
 
 	})));
 
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(34)))
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(42)))
 
 /***/ },
 
-/***/ 34:
+/***/ 42:
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -2036,7 +2043,7 @@
 
 /***/ },
 
-/***/ 35:
+/***/ 43:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -2200,7 +2207,7 @@
 
 /***/ },
 
-/***/ 36:
+/***/ 44:
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/*! *****************************************************************************
@@ -3333,14 +3340,440 @@
 
 /***/ },
 
-/***/ 37:
+/***/ 45:
+/***/ function(module, exports) {
+
+	/**
+	 * Created by Denis on 19.12.2016.
+	 */
+	'use strict';
+
+	document.addEventListener('DOMContentLoaded', (function(){
+
+	    var controls = document.getElementById('controls');
+	    var mainSliderTitle = document.querySelector('.main-slider__title');
+	    var mainSliderDescription = document.querySelector('.main-slider__description');
+	    var mainSliderLink = document.querySelector('.main-slider__btn');
+
+	    if (controls) {
+
+	        var params = {
+	            maxZoom: 14,
+	            zoom: 11,
+	            appid: '9de243494c0b295cca9337e1e96b00e2',
+	        };
+
+	        var slides = {
+	            slide1: {
+	                mapid: 'map1',
+	                el: document.getElementById('map1'),
+	                center: [-24.6714, 15.4955],
+	                url: 'http://{s}.sat.owm.io/sql/{z}/{x}/{y}',
+	                urlParams: '?appid=' + params.appid + '&color=brightness(6000:14000)',
+	                name: 'layer1',
+	                title: 'Vane Platform',
+	                description: 'Simple and fast access to environmental data for development of new applications',
+	                link: '/vaneLanguage',
+	            },
+	            slide2: {
+	                mapid: 'map2',
+	                el: document.getElementById('map2'),
+	                center: [27.146, -78.145],
+	                url: 'http://{s}.sat.owm.io/sql/{z}/{x}/{y}',
+	                urlParams: '?appid=' + params.appid + '&where=day:2016-273',
+	                name: 'layer2',
+	                title: 'VANE Language',
+	                description: 'SQL fashioned query language for easy and fast ‘speaking’ with satellite images and weather data',
+	                link: '/vaneLanguage',
+	            },
+	            slide3: {
+	                mapid: 'map3',
+	                el: document.getElementById('map3'),
+	                center: [-12.65, 130.51],
+	                url: 'http://sat.owm.io/rgb/L8B5/L8B4/L8B3/{z}/{x}/{y}',
+	                urlParams: '?appid=' + params.appid + '&time=2016-214&hi=15000&low=5000',
+	                name: 'layer3',
+	                title: 'Operations with images',
+	                description: 'Online processing of images with essential formulas of vegetation indexes such as NDVI and EVI',
+	                link: '/vaneLanguage',
+	            },
+	            length: 3,
+	        };
+
+	        function renderSlide(params, slide){
+	            var layer = L.tileLayer(slide.url + slide.urlParams);
+	            console.log(slide.url + slide.urlParams);
+	            var map = L.map(slide.mapid, {zoomControl:false, attributionControl:false, center: slide.center, maxZoom: params.maxZoom, zoom : params.zoom, layers: [ layer ]});
+	            L.control.scale({position:'bottomleft',imperial:false, detectRetina: true,}).addTo(map);
+	            map.scrollWheelZoom.disable();
+	            map.dragging.disable();
+	            map.boxZoom.disable();
+	            map.doubleClickZoom.disable();
+	            // map.tap.disable();
+	            return [map, layer];
+	        }
+
+	        renderSlide(params, slides.slide1);
+	        renderSlide(params, slides.slide2);
+	        renderSlide(params, slides.slide3);
+
+	        var hiddenSlides = function(){
+	            for(var elem in slides) {
+	                if(slides[elem].hasOwnProperty('el')) {
+	                    slides[elem]['el'].style.zIndex = -1;
+	                }
+	            }
+	        }
+
+	        hiddenSlides = hiddenSlides.bind(this);
+
+	        var step = 1;
+	        var controlsID = ['slide0', 'slide1', 'slide2'];
+
+	        var slideProgress = function(id) {
+	            var slide = '';
+	            if (id) {
+	                controlsID.filter((function(element, index){
+	                    if(id === element) {
+	                        step = index;
+	                    }
+	                }));
+	            }
+
+	            if(step >= slides.length){
+	                step = 0;
+	            }
+	            switch(controlsID[step]) {
+	                case 'slide0' :
+	                    slide = 'slide1';
+	                    break;
+	                case 'slide1':
+	                    slide = 'slide2';
+	                    break;
+	                case 'slide2' :
+	                    slide = 'slide3';
+	                    break;
+	            }
+
+	            hiddenSlides();
+	            slides[slide]['el'].style.zIndex = 1;
+	            mainSliderTitle.textContent = slides[slide]['title'];
+	            mainSliderDescription.textContent = slides[slide]['description'];
+	            mainSliderLink.href = slides[slide]['link'];
+
+	            var label = document.getElementById(controlsID[step++]).parentNode;
+	            var input = label.querySelector('.main-slider__radio');
+	            if (input) {
+	                input.checked = 'true';
+	            }
+	        };
+
+	        slideProgress = slideProgress.bind(this);
+
+	        controls.addEventListener('click', (function(event){
+	            if (event.target.classList.contains('main-slider__label')) {
+	                var control = (event.target).querySelector('.main-slider__control');
+	                slideProgress(control.id);
+	            }
+	            if (event.target.classList.contains('main-slider__control')) {
+	                slideProgress(event.target.id);
+	            }
+	        }));
+
+	        var interval = setInterval(slideProgress, 7000);
+	    }
+
+	    // Работа с табами
+
+	    var industries = document.getElementById('industries');
+	    var industryName = document.getElementById('industry-name');
+	    var industryDescription = document.getElementById('industry-description');
+
+	    if(industries) {
+
+	        var tabContent = {
+	            mining:
+	                {
+	                    name: 'Mining',
+	                    description: 'Evaluate which of two neighboring mines is producing the most coal',
+	                    active: 'img-hammer-blue.svg',
+	                    disactive: 'img-hammer-gray.svg',
+	                    width: 70,
+	                    height: 70,
+	                },
+	            agricultural:
+	                {
+	                    name: 'Agricultural insurance',
+	                    description: 'Evaluate health of crops and fight with crop insurance fraud',
+	                    active: 'img-ear-blue.svg',
+	                    disactive: 'img-ear-gray.svg',
+	                    width: 38,
+	                    height: 90,
+	                },
+	            energy:
+	                {
+	                    name: 'Energy',
+	                    description: 'Estimate the current global oil surplus',
+	                    active: 'img-lighting-blue.svg',
+	                    disactive: 'img-lighting-gray.svg',
+	                    width: 82,
+	                    height: 82,
+	                },
+	            construction:
+	                {
+	                    name: 'Construction',
+	                    description: 'Monitor dynamic of construction of apartments, shopping malls and other amenities',
+	                    active: 'img-home-blue.svg',
+	                    disactive: 'img-home-gray.svg',
+	                    width: 70,
+	                    height: 70,
+	                },
+	            realEstate:
+	                {
+	                    name: 'Real estate',
+	                    description: 'Show top-down view of the property and surrounding area when purchasing real estate',
+	                    active: 'img-shovel-blue.svg',
+	                    disactive: 'img-shovel-gray.svg',
+	                    width: 80,
+	                    height: 79,
+	                },
+	            retail:
+	                {
+	                    name: 'Retail',
+	                    description: 'Track fill rates at car parks at big retailers to provide an indication of company revenues',
+	                    active: 'img-basket-blue.svg',
+	                    disactive: 'img-basket-gray.svg',
+	                    width: 87,
+	                    height: 71,
+	                },
+	        };
+
+	        function bindHandlers() {
+
+	            var prevElementId = 'mining';
+	            var pathSrc = 'themes/demo/assets/img/';
+	            var that = this;
+
+	            var tabSelected = function(event){
+	                if (!industryName || !industryDescription) {
+	                    return;
+	                }
+	                if (event.target.classList.contains('industries__image')) {
+	                    var element = event.target;
+	                    if(element.id === prevElementId) {
+	                        return;
+	                    }
+	                    industryName.innerText = tabContent[element.id]['name'];
+	                    industryDescription.innerText = tabContent[element.id]['description'];
+
+	                    // Очищаем старое выделение
+	                    var imgOldNode = document.getElementById(prevElementId);
+	                    var imgOld = new Image();
+
+	                    imgOld.onerror = function(){
+	                        console.log('Ошибка загрузки фото');
+	                    }
+
+	                    imgOld.onload = function() {
+	                        this.alt = tabContent[prevElementId]['name'];
+	                        this.width = 	tabContent[prevElementId]['width'];
+	                        this.height = 	tabContent[prevElementId]['height'];
+	                        imgOldNode.replaceChild(this, imgOldNode.children[0]);
+	                    }
+
+	                    imgOld.src = pathSrc + tabContent[prevElementId]['disactive'];
+
+	                    // Выделяем новую картинку
+	                    var img = new Image();
+
+	                    img.onerror = function(){
+	                        console.log('Ошибка загрузки фото');
+	                        prevElementId = element.id;
+	                    }
+
+	                    img.onload = function(){
+	                        this.alt=tabContent[element.id]['name'];
+	                        this.width = tabContent[element.id]['width'];
+	                        this.height = tabContent[element.id]['height'];
+	                        prevElementId = element.id;
+	                        element.replaceChild(this, element.children[0]);
+	                    }
+
+	                    img.src = pathSrc + tabContent[element.id]['active'];
+
+	                    return;
+	                }
+	                if(event.target.parentNode.classList.contains('industries__image')) {
+
+	                    var element = event.target;
+
+	                    if(element.parentNode.id === prevElementId) {
+	                        return;
+	                    }
+
+	                    industryName.innerText = tabContent[element.parentNode.id]['name'];
+	                    industryDescription.innerText = tabContent[element.parentNode.id]['description'];
+
+	                    // Очищаем старое выделение
+	                    var imgOldNode = document.getElementById(prevElementId);
+	                    var imgOld = new Image();
+
+	                    imgOld.onerror = function(){
+	                        console.log('Ошибка загрузки фото');
+	                    }
+
+	                    imgOld.onload = function() {
+	                        this.alt = tabContent[prevElementId]['name'];
+	                        this.width = 	tabContent[prevElementId]['width'];
+	                        this.height = 	tabContent[prevElementId]['height'];
+	                        imgOldNode.replaceChild(this, imgOldNode.children[0]);
+	                    }
+
+	                    imgOld.src = pathSrc + tabContent[prevElementId]['disactive'];
+
+	                    // Выделяем новую картинку
+	                    var img = new Image();
+
+	                    img.onerror = function(){
+	                        console.log('Ошибка загрузки фото');
+	                        prevElementId = element.parentNode.id;
+	                    }
+
+	                    img.onload = function(){
+	                        this.alt= tabContent[element.parentNode.id]['name'];
+	                        this.width = tabContent[element.parentNode.id]['width'];
+	                        this.height = tabContent[element.parentNode.id]['height'];
+	                        prevElementId = element.parentNode.id;
+	                        element.parentNode.replaceChild(this, element);
+
+	                    }
+
+	                    img.src=pathSrc + tabContent[element.parentNode.id]['active'];
+
+
+	                    return;
+	                }
+	            }
+
+	            var boundMethod = tabSelected.bind(this);
+	            industries.addEventListener('click', boundMethod);
+	            //industries.removeEventListener('click', boundMethod);
+	        }
+
+	        bindHandlers();
+
+	    }
+
+	    //Работа с меню навигации
+
+	    var mainNav = document.querySelector('.main-nav__items');
+	    var toggleNav = document.getElementById('toggle-nav');
+	    var flagMenuVane = false;
+	    var flagMenuMaps = false;
+	    var flagNavMenu = false;
+
+	    if (mainNav) {
+
+	        var getNav = function(){
+	            if(!flagNavMenu) {
+	                mainNav.classList.add('main-nav__items--enable');
+	            } else {
+	                mainNav.classList.remove('main-nav__items--enable');
+	            }
+	            flagNavMenu = !flagNavMenu;
+	        }
+
+	        getNav = getNav.bind(this);
+
+	        if(toggleNav) {
+	            toggleNav.addEventListener('click', getNav);
+	        }
+
+
+	        mainNav.addEventListener('click', (function (event) {
+	            var node = event.target.parentNode;
+	            var element = document.getElementById(node.id);
+	            if(element) {
+	                var menuVane = element.querySelector('.main-nav__sub-items');
+	                if(node.id === 'menu-vane') {
+	                    if(!flagMenuVane) {
+	                        menuVane.classList.add('main-nav__sub-items--enable');
+	                        var icon = element.querySelector('.icon__caret-down');
+	                        icon.classList.remove('icon__caret-down');
+	                        icon.classList.add('icon__caret-up');
+	                    } else {
+	                        menuVane.classList.remove('main-nav__sub-items--enable');
+	                        var icon = element.querySelector('.icon__caret-up');
+	                        icon.classList.add('icon__caret-down');
+	                        icon.classList.remove('icon__caret-up');
+	                    }
+	                    flagMenuVane = !flagMenuVane;
+	                }
+	                if(node.id === 'menu-maps') {
+	                    if(!flagMenuMaps) {
+	                        menuVane.classList.add('main-nav__sub-items--enable');
+	                        var icon = element.querySelector('.icon__caret-down');
+	                        icon.classList.remove('icon__caret-down');
+	                        icon.classList.add('icon__caret-up');
+	                    } else {
+	                        menuVane.classList.remove('main-nav__sub-items--enable');
+	                        var icon = element.querySelector('.icon__caret-up');
+	                        icon.classList.add('icon__caret-down');
+	                        icon.classList.remove('icon__caret-up');
+	                    }
+	                    flagMenuMaps = !flagMenuMaps;
+	                }
+	            }
+	        }));
+	    }
+
+	}));
+
+/***/ },
+
+/***/ 46:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 38:
+/***/ 47:
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+
+/***/ 48:
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+
+/***/ 49:
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+
+/***/ 50:
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+
+/***/ 51:
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+
+/***/ 52:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin

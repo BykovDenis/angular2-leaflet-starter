@@ -58,6 +58,10 @@
 	var app_component_1 = __webpack_require__(27);
 	var main_nav_component_1 = __webpack_require__(29);
 	var main_footer_component_1 = __webpack_require__(31);
+	var features_component_1 = __webpack_require__(33);
+	var vane_language_component_1 = __webpack_require__(35);
+	var subscribe_component_1 = __webpack_require__(37);
+	var main_slider_component_1 = __webpack_require__(39);
 	var AppModule = (function () {
 	    function AppModule() {
 	    }
@@ -67,7 +71,15 @@
 	    core_1.NgModule({
 	        imports: [forms_1.FormsModule, platform_browser_1.BrowserModule],
 	        bootstrap: [app_component_1.AppComponent],
-	        declarations: [main_nav_component_1.MainNavComponent, main_footer_component_1.MainFooterComponent, app_component_1.AppComponent]
+	        declarations: [
+	            main_nav_component_1.MainNavComponent,
+	            features_component_1.FeaturesComponent,
+	            main_footer_component_1.MainFooterComponent,
+	            vane_language_component_1.VaneLanguageComponent,
+	            subscribe_component_1.SubscribeComponent,
+	            main_slider_component_1.MainSliderComponent,
+	            app_component_1.AppComponent
+	        ]
 	    })
 	], AppModule);
 	exports.AppModule = AppModule;
@@ -56643,6 +56655,7 @@
 	}());
 	AppComponent = __decorate([
 	    core_1.Component({
+	        encapsulation: core_1.ViewEncapsulation.None,
 	        selector: "app",
 	        template: __webpack_require__(28),
 	        providers: []
@@ -56656,7 +56669,7 @@
 /* 28 */
 /***/ (function(module, exports) {
 
-	module.exports = "<main-nav></main-nav>\n<main-footer></main-footer>\n"
+	module.exports = "<header class=\"main-header\">\n    <main-nav></main-nav>\n</header>\n<main class=\"main\">\n    <main-slider></main-slider>\n    <features></features>\n    <vane-language></vane-language>\n    <subscribe></subscribe>\n</main>\n<main-footer></main-footer>\n\n"
 
 /***/ }),
 /* 29 */
@@ -56725,7 +56738,138 @@
 /* 32 */
 /***/ (function(module, exports) {
 
-	module.exports = "<footer class=\"main-footer\">\n    <div class=\"main-footer__layout\">\n        <div class=\"main-footer__items\">\n            <div class=\"main-footer__item\">  500.000+  developers<br>  work with our services</div>\n            <div class=\"main-footer__item\">  1 billion+ weather forecasts<br>  we produce daily</div>\n            <div class=\"main-footer__item\">  500+ Gb of satellite data<br>  we process daily</div>\n        </div>\n        <div class=\"main-footer__items\">\n            <div class=\"main-footer__copyright\">Powered by OpenWeatherMap, Inc</div>\n            <div class=\"main-footer__contacts\"><span class=\"main-footer__contact\">Contact us</span><span class=\"main-footer__contact\">Terms of use</span><span class=\"main-footer__socials\"><a href=\"https://www.linkedin.com/company/9816754\" class=\"icon-social icon-social__in\"><img src=\"img/icon-in.png\" width=\"32\" height=\"32\" alt=\"instagram\"></a><a href=\"https://www.facebook.com/groups/270748973021342\" class=\"icon-social icon-social__fb\"><img src=\"img/icon-fb.png\" width=\"32\" height=\"32\" alt=\"facebook\"></a></span></div>\n        </div>\n    </div>\n</footer>"
+	module.exports = "<footer class=\"main-footer\">\n    <div class=\"main-footer__layout\">\n        <div class=\"main-footer__items\">\n            <div class=\"main-footer__item\">  500.000+  developers<br>  work with our services</div>\n            <div class=\"main-footer__item\">  1 billion+ weather forecasts<br>  we produce daily</div>\n            <div class=\"main-footer__item\">  500+ Gb of satellite data<br>  we process daily</div>\n        </div>\n        <div class=\"main-footer__items\">\n            <div class=\"main-footer__copyright\">Powered by OpenWeatherMap, Inc</div>\n            <div class=\"main-footer__contacts\">\n                <span class=\"main-footer__contact\">\n                    <a href=\"https://openweathermap.desk.com/customer/portal/emails/new\" target=\"_blank\" class=\"main-footer__link\">Contact us</a>\n                </span>\n                <span class=\"main-footer__contact\">\n                    <a href=\"http://openweathermap.org/terms\" target=\"_blank\" class=\"main-footer__link\">Terms of use</a>\n                </span>\n                <span class=\"main-footer__socials\"><a href=\"https://www.linkedin.com/company/9816754\" class=\"icon-social icon-social__in\"><img src=\"img/icon-in.png\" width=\"32\" height=\"32\" alt=\"instagram\"></a><a href=\"https://www.facebook.com/groups/270748973021342\" class=\"icon-social icon-social__fb\"><img src=\"img/icon-fb.png\" width=\"32\" height=\"32\" alt=\"facebook\"></a></span></div>\n        </div>\n    </div>\n</footer>"
+
+/***/ }),
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var core_1 = __webpack_require__(3);
+	var FeaturesComponent = (function () {
+	    function FeaturesComponent() {
+	    }
+	    return FeaturesComponent;
+	}());
+	FeaturesComponent = __decorate([
+	    core_1.Component({
+	        selector: "features",
+	        template: __webpack_require__(34)
+	    })
+	], FeaturesComponent);
+	exports.FeaturesComponent = FeaturesComponent;
+	;
+
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports) {
+
+	module.exports = "<section class=\"features\">\n    <div class=\"features__layout\">\n        <ul class=\"features__items\">\n            <li class=\"features__item\"><img src=\"img/img-bracket.svg\" alt=\"Vane Language\" width=\"64\" height=\"48\" class=\"features__image\">\n                <p class=\"features__title\">BUILD APPS</p>\n                <p class=\"features__description\">SQL fashioned<span class=\"features__item-note\">&nbsp;VANE LANGUAGE&nbsp;</span>for intuitive queries to the environmantal data, getting in instantly into application</p><a href=\"#\" class=\"mainpage-btn mainpage-btn--schema\">CONSTRUCT A QUERY</a>\n            </li>\n            <li class=\"features__item\"><img src=\"img/research_icon_LP.png\" width=\"48\" height=\"48\" alt=\"Environmental Data\" class=\"features__image\">\n                <p class=\"features__title\">MAKE A RESEARCH</p>\n                <p class=\"features__description\">VANE  analytical tools for online computing and data processing</p><a href=\"#\" class=\"mainpage-btn mainpage-btn--schema\">GETTING STARTED WITH JUPYTER</a>\n            </li>\n            <li class=\"features__item\"><img src=\"img/tools_icon_LP.png\" width=\"48\" height=\"48\" alt=\"Data Science Tools\" class=\"features__image\">\n                <p class=\"features__title\">VISUAL TOOLS</p>\n                <p class=\"features__description\">Get an immediate result with our ready-to-use examples and weather maps. Customize your own map style to embed map tiles into your app</p><a href=\"#\" class=\"mainpage-btn mainpage-btn--schema\">GO TO VANE SHOWCASE</a>\n            </li>\n        </ul>\n    </div>\n</section>"
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var core_1 = __webpack_require__(3);
+	var VaneLanguageComponent = (function () {
+	    function VaneLanguageComponent() {
+	    }
+	    return VaneLanguageComponent;
+	}());
+	VaneLanguageComponent = __decorate([
+	    core_1.Component({
+	        selector: "vane-language",
+	        template: __webpack_require__(36)
+	    })
+	], VaneLanguageComponent);
+	exports.VaneLanguageComponent = VaneLanguageComponent;
+	;
+
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports) {
+
+	module.exports = "<section class=\"vane-language\">\n    <div class=\"vane-language__layout\">\n        <h2 class=\"vane-language__title\" id=\"showcase\">  VANE Query Language</h2>\n        <div class=\"vane-language__description\">   Construct queries for satellite images using essential processing formulas - simple coding and instant visual result</div>\n        <div class=\"vane-language-table\">\n            <div class=\"vane-language-table__row\">\n                <h3 class=\"vane-language-table__col vane-language-table__col-title\">RGB mosaic</h3>\n                <div class=\"vane-language-table__col vane-language-table__col-description\">Get satellite maps with custom date or color parameters. Connect it to any popular web mappning library like Leaflet or Openlayers</div>\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"http://sat.owm.io/sql/9/143/218?order=best&amp;appid=9de243494c0b295cca9337e1e96b00e2\" alt=\"RGB mosaic\" class=\"vane-language__img vane-language__img-top\"><img src=\"http://sat.owm.io/rgb/S2B4/S2B3/S2B2/13/5350/3505?time=2016-360&amp;hi=3000&amp;low=0&amp;appid=9de243494c0b295cca9337e1e96b00e2\" alt=\"RGB mosaic\" class=\"vane-language__img vane-language__img-bottom\"></div>\n            </div>\n            <div class=\"vane-language-table__row\">\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"img/ndvi_mask_S2.jpg\" alt=\"Vegetation index\" width=\"350\" height=\"300\" class=\"vane-language__img\"></div>\n                <div class=\"vane-language-table__col\">\n                    <h3 class=\"vane-language-table__col vane-language-table__col-title\">Get vegetation index by polygon</h3>\n                    <div class=\"vane-language-table__col-description\">Get vegetation maps by polygon coordinates to monitor crops growth for agriculture application. Send ZXY queries for raster tiles or fetch JSON to analyse NDVI and weather dynamics</div>\n                </div>\n            </div>\n            <div class=\"vane-language-table__row\">\n                <div class=\"vane-language-table__col\">\n                    <h3 class=\"vane-language-table__col-title\">Change detection</h3>\n                    <div class=\"vane-language-table__col-description\">Calculate a difference between two images before and after the certain event or within a date interval</div>\n                </div>\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"http://a.sat.owm.io/sql/11/333/738?appid=9de243494c0b295cca9337e1e96b00e2&amp;select=b7,b5,b3&amp;where=day:2015-263&amp;from=&amp;order=&amp;color=&amp;op=\" alt=\"Change detection\" class=\"vane-language__img vane-language__img-top\"><img src=\"http://a.sat.owm.io/sql/11/333/738?appid=9de243494c0b295cca9337e1e96b00e2&amp;where=between(2015-199:2015-263)&amp;color=0.01:f7eebb00;0.05:f7eebb00;1:fc4163ff&amp;select=b7,b5&amp;op=change&amp;\" alt=\"Change detection\" class=\"vane-language__img vane-language__img-bottom\" style=\"background:rgba(255, 255, 255, 0.7);     border: 1px solid #bbb;\"></div>\n            </div>\n            <div class=\"vane-language-table__row\">\n                <div class=\"vane-language-table__col vane-language-table__col-images\"><img src=\"https://map1a.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2017-01-15/GoogleMapsCompatible_Level9/4/6/2.jpg\" alt=\"Get weather maps along with satellite mosaics\" class=\"vane-language__img vane-language__img-top\"><img src=\"http://b.maps.owm.io:8099/579e5d08946d8a0100852a1b/4/4/6?hash=6cebb514e0ed3063cd8cd1293f82e752&amp;rnd=0.5048475149907854\" alt=\"Get weather maps along with satellite mosaics\" class=\"vane-language__img vane-language__img-bottom\"></div>\n                <div class=\"vane-language-table__col vane-language-table__col-description\">Make your combination of operative satellite mosiacs and custom styled weather maps. Get them bundled in one tile layer</div>\n                <h2 class=\"vane-language-table__col vane-language-table__col-title\">Get weather maps along with satellite mosaics</h2>\n            </div>\n        </div>\n        <div class=\"vane-language__layout-btn\"><a href=\"/get\" class=\"mainpage-btn mainpage-btn--schema\">Get API</a></div>\n    </div>\n</section>"
+
+/***/ }),
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var core_1 = __webpack_require__(3);
+	var SubscribeComponent = (function () {
+	    function SubscribeComponent() {
+	    }
+	    return SubscribeComponent;
+	}());
+	SubscribeComponent = __decorate([
+	    core_1.Component({
+	        selector: "subscribe",
+	        template: __webpack_require__(38)
+	    })
+	], SubscribeComponent);
+	exports.SubscribeComponent = SubscribeComponent;
+	;
+
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports) {
+
+	module.exports = "<section id=\"mc_embed_signup\" class=\"subscribe\">\n    <div class=\"subscribe__layout\">\n        <h4 class=\"subscribe__title\">We are updating constantly: adding new data, writing how-tos, cases etc. - stay tuned!</h4>\n        <form id=\"mc-embedded-subscribe-form\" action=\"//openweathermap.us14.list-manage.com/subscribe/post?u=0cc0420e48c25767a78de8d6b&amp;id=68aee41eb1\" method=\"post\" name=\"mc-embedded-subscribe-form\" target=\"_blank\" novalidate=\"novalidate\" class=\"validate subscribe__form\">\n            <div id=\"mc_embed_signup_scroll\">\n                <div class=\"mc-field-group\">\n                    <label for=\"mce-EMAIL\" class=\"subscribe__email-label\">Email</label>\n                    <input id=\"mce-EMAIL\" type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email subscribe__email\" aria-required=\"true\">\n                </div>\n                <div id=\"mce-responses\" class=\"clear\">\n                    <div id=\"mce-error-response\" style=\"display:none\" class=\"response\"></div>\n                    <div id=\"mce-success-response\" style=\"display:none\" class=\"response\"></div>\n                </div>\n                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n                <div style=\"position: absolute; left: -5000px\" aria-hidden=\"true\">\n                    <input type=\"text\" name=\"b_0cc0420e48c25767a78de8d6b_68aee41eb1\" tabindex=\"-1\" value=\"\" class=\"subscribe__email\">\n                </div>\n                <div class=\"clear\">\n                    <input id=\"mc-embedded-subscribe\" type=\"submit\" value=\"SUBSCRIBE TO OUR NEWS LETTER\" name=\"subscribe\" class=\"button mainpage-btn mainpage-btn--schema\">\n                </div>\n            </div>\n        </form>\n    </div>\n</section>"
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var core_1 = __webpack_require__(3);
+	var MainSliderComponent = (function () {
+	    function MainSliderComponent() {
+	    }
+	    return MainSliderComponent;
+	}());
+	MainSliderComponent = __decorate([
+	    core_1.Component({
+	        selector: "main-slider",
+	        template: __webpack_require__(40)
+	    })
+	], MainSliderComponent);
+	exports.MainSliderComponent = MainSliderComponent;
+
+
+/***/ }),
+/* 40 */
+/***/ (function(module, exports) {
+
+	module.exports = "<section class=\"main-slider\">\n    <a href=\"http://owm.io\" class=\"main-slider__link\">\n        <!-- img.main-slider__image(src='themes/owm/assets/img/image-slider-mosaic.jpg' width=\"3360\" alt='Vane platform')-->\n        <div id=\"map1\" class=\"main-slider__map main-slider__map--map1\"></div>\n        <div id=\"map2\" class=\"main-slider__map main-slider__map--map2\"></div>\n        <div id=\"map3\" class=\"main-slider__map main-slider__map--map3\"></div>\n    </a>\n    <div class=\"main-slider__layout\">\n        <h2 class=\"main-slider__title\">Vane Platform</h2>\n        <p class=\"main-slider__description\">Simple and fast access to environmental <br> data for development of new applications</p><a href=\"/vaneLanguage\" target=\"_blank\" class=\"mainpage-btn main-slider__btn\">Try for free</a>\n    </div>\n    <ul id=\"controls\" class=\"main-slider__controls\">\n        <label class=\"main-slider__label\">\n            <input type=\"radio\" name=\"slide\" checked=\"true\" class=\"main-slider__radio\"><a id=\"slide0\" href=\"/vaneLanguage\" class=\"main-slider__control\"></a>\n        </label>\n        <label class=\"main-slider__label\">\n            <input type=\"radio\" name=\"slide\" class=\"main-slider__radio\"><a id=\"slide1\" href=\"/vaneLanguage\" class=\"main-slider__control\"></a>\n        </label>\n        <label class=\"main-slider__label\">\n            <input type=\"radio\" name=\"slide\" class=\"main-slider__radio\"><a id=\"slide2\" href=\"/vaneLanguage\" class=\"main-slider__control\"></a>\n        </label>\n    </ul>\n</section>"
 
 /***/ })
 /******/ ]);

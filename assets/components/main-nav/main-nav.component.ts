@@ -14,16 +14,21 @@ export class MainNavComponent {
     public flagNavMenu: boolean = false;
 
     getNav(){
-        if(!this.flagNavMenu) {
-            mainNav.classList.add('main-nav__items--enable');
-        } else {
-            mainNav.classList.remove('main-nav__items--enable');
+
+        let mainNav = document.querySelector('.main-nav');
+
+        if (mainNav) {
+
+            if (!this.flagNavMenu) {
+                mainNav.classList.add('main-nav__items--enable');
+            } else {
+                mainNav.classList.remove('main-nav__items--enable');
+            }
+            this.flagNavMenu = !this.flagNavMenu;
         }
-        this.flagNavMenu = !this.flagNavMenu;
     }
 
     getToggle() {
-        debugger;
         let node = event.target.parentNode;
         let element = document.getElementById(node.id);
         if(element) {

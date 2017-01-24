@@ -14,16 +14,9 @@ import {WorkersComponent} from "./components/workers/workers.component";
 
 @NgModule({
     imports: [FormsModule, BrowserModule],
-    bootstrap: [AppComponent],
+    bootstrap: [WorkersComponent],
     declarations: [
-        MainNavComponent,
-        FeaturesComponent,
-        MainFooterComponent,
-        VaneLanguageComponent,
-        SubscribeComponent,
-        MainSliderComponent,
-        WorkersComponent,
-        AppComponent
+        WorkersComponent
     ]
 })
 

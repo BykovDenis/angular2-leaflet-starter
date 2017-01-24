@@ -11,12 +11,15 @@
     border-radius: 15px;
     box-shadow: 0 0 2px 1px rgba(0,0,0,.3);
     cursor: pointer;
+    filter: grayscale(1);
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 
     &:hover{
       transition-duration: .5s;
       transition-timing-function: ease-in-out;
       box-shadow: 0 0 4px 2px #369ce0;
-      filter: sepia(1);
+      filter: none;
     }
   }
 

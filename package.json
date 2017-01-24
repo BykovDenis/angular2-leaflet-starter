@@ -8,7 +8,7 @@
     "url": "git+https://github.com/haoliangyu/angular2-leaflet-starter.git"
   },
   "scripts" : {
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server --color"
   },
   "keywords": [
     "angular2",

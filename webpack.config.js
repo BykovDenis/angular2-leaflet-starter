@@ -49,7 +49,7 @@ module.exports = {
         noParse: [ path.join(__dirname, 'node_modules', 'angular2', 'bundles') ]
     },
     plugins: [
-        // uncomment this code for production
+         //uncomment this code for production
          new webpack.optimize.UglifyJsPlugin({
              sourceMap: false,
              mangle: true

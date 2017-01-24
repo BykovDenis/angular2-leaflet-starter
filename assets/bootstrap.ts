@@ -2,6 +2,7 @@ import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
 import {NgModule} from "@angular/core";
 import {FormsModule}   from "@angular/forms";
 import {BrowserModule} from "@angular/platform-browser";
+import { HttpModule }   from '@angular/http';
 
 import {AppComponent} from "./components/app/app.component";
 import {MainNavComponent} from "./components/main-nav/main-nav.component";
@@ -13,7 +14,7 @@ import {MainSliderComponent} from "./components/main-slider/main-slider.componen
 import {WorkersComponent} from "./components/workers/workers.component";
 
 @NgModule({
-    imports: [FormsModule, BrowserModule],
+    imports: [FormsModule, BrowserModule, HttpModule],
     bootstrap: [WorkersComponent],
     declarations: [
         WorkersComponent

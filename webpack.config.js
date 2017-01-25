@@ -7,6 +7,7 @@ var OptimizeJsPlugin = require("optimize-js-plugin");
 var ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
 var WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'); // для плагина по минификации и оптимизации css
+var CopyWebpackPlugin = require('copy-webpack-plugin'); // копирование файлов
 
 var srcDir = 'assets';
 //var outputDir = 'build/themes/owm/assets/vendor/owm';
@@ -79,5 +80,8 @@ module.exports = {
             cssProcessorOptions: { discardComments: {removeAll: true } },
             canPrint: true
         }),
+        new CopyWebpackPlugin([{
+            from: path.resolve(srcDir+'/data/', 'team.json'), to: 'data/'
+        }]),
     ]
 };

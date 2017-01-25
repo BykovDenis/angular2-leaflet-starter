@@ -1,7 +1,9 @@
 import { Component } from "@angular/core";
 import { Response} from '@angular/http';
 import { HttpTeamService } from '../../services/team.service';
+import {enableProdMode} from '@angular/core';
 
+enableProdMode();
 
 @Component({
     selector: "workers",

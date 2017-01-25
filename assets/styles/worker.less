@@ -194,6 +194,21 @@
     align-items: baseline;
     position: relative;
 
+    &__layout:hover + &-popup{
+      display: none;
+    }
+
+    &:hover > &-popup{
+      display: block;
+    }
+
+    &:hover &__photo{
+      transition-duration: .5s;
+      transition-timing-function: ease-in-out;
+      box-shadow: 0 0 4px 2px #369ce0;
+      filter: none;
+    }
+
     &__photo{
       width: 100px;
       height: 100px;

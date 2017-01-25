@@ -31,3 +31,28 @@
     border-bottom: 25px solid white;
   }
 }
+
+@media (max-width: 434px) {
+
+  .worker-popup {
+    position: relative;
+    transform: none;
+    right: initial;
+    top: initial;
+    filter: none;
+    padding-left: 0;
+    padding-right: 15px;
+    max-width: initial;
+    text-align: justify;
+    transition-duration: 1s;
+
+    &:before{
+      display: none;
+    }
+
+    &:after{
+      display: none;
+    }
+  }
+
+}

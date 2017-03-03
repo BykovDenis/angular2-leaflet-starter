@@ -6,8 +6,11 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var OptimizeJsPlugin = require("optimize-js-plugin");
 var ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
 var WebpackCleanupPlugin = require('webpack-cleanup-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'); // для плагина по минификации и оптимизации css
+var CopyWebpackPlugin = require('copy-webpack-plugin'); // копирование файлов
 
 var srcDir = 'assets';
+//var outputDir = 'build/themes/owm/assets/vendor/owm';
 var outputDir = 'build';
 
 module.exports = {
@@ -19,9 +22,9 @@ module.exports = {
     },
     output: {
         path: outputDir,
-        filename: '[name].[hash].bundle.js',
-        sourceMapFilename: '[name].[hash].map',
-        chunkFilename: '[id].[hash].chunk.js'
+        filename: 'js/[name].[hash].bundle.js',
+        sourceMapFilename: 'js/[name].[hash].map',
+        chunkFilename: 'js/[id].[hash].chunk.js'
     },
     resolve: {
         extensions: ['', '.ts', '.component.ts', '.service.ts', '.js', '.component.html', '.component.less', '.less', '.css', '.jade']
@@ -34,26 +37,25 @@ module.exports = {
             { test: /\.jade$/, loader: "jade-loader", query: {pretty: true} },
             { test: /(\.component|\.service|)\.ts$/, loader: 'ts-loader'},
             { test: /\.component\.html$/, loader: 'raw' },
-            { test: /(\.component|)\.less$/, loader: 'to-string!css!less' },
+            { test: /(\.component|)\.less$/, loader: ExtractTextPlugin.extract('to-string!css!less')}, // loaders to preprocess CSS
             { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader') },
-            { test: /\.(png|gif|jpg)$/, loader: "file?name=images/[name].[ext]" },
+            { test: /\.(svg|png|gif|jpg)$/, loader: "file?name=img/[name].[ext]" },
             // For font-awesome, created by Turbo87:
             // https://gist.github.com/Turbo87/e8e941e68308d3b40ef6
             { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=fonts/[name].[ext]" },
             { test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=fonts/[name].[ext]" },
             { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=fonts/[name].[ext]" },
-            { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=fonts/[name].[ext]" },
-            { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=fonts/[name].[ext]" }
+            { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=fonts/[name].[ext]" }
         ],
         noParse: [ path.join(__dirname, 'node_modules', 'angular2', 'bundles') ]
     },
     plugins: [
-        // uncomment this code for production
-        // new webpack.optimize.UglifyJsPlugin({
-        //     sourceMap: false,
-        //     mangle: true
-        // }),
-        new ExtractTextPlugin("[name].[contenthash].css"),
+         //uncomment this code for production
+         new webpack.optimize.UglifyJsPlugin({
+             sourceMap: false,
+             mangle: true
+        }),
+        new ExtractTextPlugin("css/[name].[contenthash].css", {allChunks: true}),
         new HtmlWebpackPlugin({
             inject: true,
             filename: 'index.html',
@@ -71,6 +73,15 @@ module.exports = {
         }),
         new OptimizeJsPlugin({
           sourceMap: false
-        })
+        }),
+        new OptimizeCssAssetsPlugin({ // Оптимизация и минификация сгенерированного css кода
+            assetNameRegExp: /\.css$/g,
+            cssProcessor: require('cssnano'),
+            cssProcessorOptions: { discardComments: {removeAll: true } },
+            canPrint: true
+        }),
+        new CopyWebpackPlugin([{
+            from: path.resolve(srcDir+'/data/', 'team.json'), to: 'data/'
+        }]),
     ]
 };

@@ -1,0 +1,33 @@
+<section class="vane-language">
+    <div class="vane-language__layout">
+        <h2 class="vane-language__title" id="showcase">  VANE Query Language</h2>
+        <div class="vane-language__description">   Construct queries for satellite images using essential processing formulas - simple coding and instant visual result</div>
+        <div class="vane-language-table">
+            <div class="vane-language-table__row">
+                <h3 class="vane-language-table__col vane-language-table__col-title">RGB mosaic</h3>
+                <div class="vane-language-table__col vane-language-table__col-description">Get satellite maps with custom date or color parameters. Connect it to any popular web mappning library like Leaflet or Openlayers</div>
+                <div class="vane-language-table__col vane-language-table__col-images"><img src="http://sat.owm.io/sql/9/143/218?order=best&amp;appid=9de243494c0b295cca9337e1e96b00e2" alt="RGB mosaic" class="vane-language__img vane-language__img-top"><img src="http://sat.owm.io/rgb/S2B4/S2B3/S2B2/13/5350/3505?time=2016-360&amp;hi=3000&amp;low=0&amp;appid=9de243494c0b295cca9337e1e96b00e2" alt="RGB mosaic" class="vane-language__img vane-language__img-bottom"></div>
+            </div>
+            <div class="vane-language-table__row">
+                <div class="vane-language-table__col vane-language-table__col-images"><img src="img/ndvi_mask_S2.jpg" alt="Vegetation index" width="350" height="300" class="vane-language__img"></div>
+                <div class="vane-language-table__col">
+                    <h3 class="vane-language-table__col vane-language-table__col-title">Get vegetation index by polygon</h3>
+                    <div class="vane-language-table__col-description">Get vegetation maps by polygon coordinates to monitor crops growth for agriculture application. Send ZXY queries for raster tiles or fetch JSON to analyse NDVI and weather dynamics</div>
+                </div>
+            </div>
+            <div class="vane-language-table__row">
+                <div class="vane-language-table__col">
+                    <h3 class="vane-language-table__col-title">Change detection</h3>
+                    <div class="vane-language-table__col-description">Calculate a difference between two images before and after the certain event or within a date interval</div>
+                </div>
+                <div class="vane-language-table__col vane-language-table__col-images"><img src="http://a.sat.owm.io/sql/11/333/738?appid=9de243494c0b295cca9337e1e96b00e2&amp;select=b7,b5,b3&amp;where=day:2015-263&amp;from=&amp;order=&amp;color=&amp;op=" alt="Change detection" class="vane-language__img vane-language__img-top"><img src="http://a.sat.owm.io/sql/11/333/738?appid=9de243494c0b295cca9337e1e96b00e2&amp;where=between(2015-199:2015-263)&amp;color=0.01:f7eebb00;0.05:f7eebb00;1:fc4163ff&amp;select=b7,b5&amp;op=change&amp;" alt="Change detection" class="vane-language__img vane-language__img-bottom" style="background:rgba(255, 255, 255, 0.7);     border: 1px solid #bbb;"></div>
+            </div>
+            <div class="vane-language-table__row">
+                <div class="vane-language-table__col vane-language-table__col-images"><img src="https://map1a.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2017-01-15/GoogleMapsCompatible_Level9/4/6/2.jpg" alt="Get weather maps along with satellite mosaics" class="vane-language__img vane-language__img-top"><img src="http://b.maps.owm.io:8099/579e5d08946d8a0100852a1b/4/4/6?hash=6cebb514e0ed3063cd8cd1293f82e752&amp;rnd=0.5048475149907854" alt="Get weather maps along with satellite mosaics" class="vane-language__img vane-language__img-bottom"></div>
+                <div class="vane-language-table__col vane-language-table__col-description">Make your combination of operative satellite mosiacs and custom styled weather maps. Get them bundled in one tile layer</div>
+                <h2 class="vane-language-table__col vane-language-table__col-title">Get weather maps along with satellite mosaics</h2>
+            </div>
+        </div>
+        <div class="vane-language__layout-btn"><a href="/get" class="mainpage-btn mainpage-btn--schema">Get API</a></div>
+    </div>
+</section>

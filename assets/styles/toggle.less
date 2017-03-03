@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+
+  .toggle {
+    padding: 9px 10px;
+    background-image: linear-gradient(to top, @color-gray5, @color-white);
+    border-radius: 1px;
+    border: 1px solid @color-gray6;
+    cursor: pointer;
+
+    &:hover{
+      background-image: linear-gradient(to top, @color-gray7, @color-gray7);
+    }
+
+    &__line{
+      display: block;
+      width: 22px;
+      height: 2px;
+      border-radius: 1px;
+      background-color: rgba(0, 0, 0, 0.4);
+      margin: 0 auto;
+      margin-bottom: 4px;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+
+}

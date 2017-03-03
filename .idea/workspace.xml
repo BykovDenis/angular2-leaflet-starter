@@ -2,12 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f34888b-762b-4466-ad2d-b7e1d3248497" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/jade/index.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
+<<<<<<< HEAD
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/Dmitriy-Kharitonov.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/libs.90745a21c108e25c10ec857d2df7a361.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Dmitriy-Kharitonov.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/app.2113815fd36ade12cc91.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/libs.2113815fd36ade12cc91.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/libs.2113815fd36ade12cc91.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Alla-Vladimirova.jpg" afterPath="$PROJECT_DIR$/assets/img/Alla-Vladimirova.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Daria-Usova.jpg" afterPath="$PROJECT_DIR$/assets/img/Daria-Usova.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Denis-Bykov.jpg" afterPath="$PROJECT_DIR$/assets/img/Denis-Bykov.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Dennis-Ukolov.jpg" afterPath="$PROJECT_DIR$/assets/img/Dennis-Ukolov.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Ekaterina-Rubatskaya.jpg" afterPath="$PROJECT_DIR$/assets/img/Ekaterina-Rubatskaya.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Georgy-Potapov.jpg" afterPath="$PROJECT_DIR$/assets/img/Georgy-Potapov.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Maxim-Guschcho.jpg" afterPath="$PROJECT_DIR$/assets/img/Maxim-Guschcho.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Maxim-Samokhin.jpg" afterPath="$PROJECT_DIR$/assets/img/Maxim-Samokhin.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Mikhail-Remizov.jpg" afterPath="$PROJECT_DIR$/assets/img/Mikhail-Remizov.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Olga-Makarova.jpg" afterPath="$PROJECT_DIR$/assets/img/Olga-Makarova.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Olga-Ukolova.jpg" afterPath="$PROJECT_DIR$/assets/img/Olga-Ukolova.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Pedro-Gabriel.jpg" afterPath="$PROJECT_DIR$/assets/img/Pedro-Gabriel.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Sergey-Bobrovskikh.jpg" afterPath="$PROJECT_DIR$/assets/img/Sergey-Bobrovskikh.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Sergey-Venediktov.jpg" afterPath="$PROJECT_DIR$/assets/img/Sergey-Venediktov.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Alla-Vladimirova.jpg" afterPath="$PROJECT_DIR$/build/img/Alla-Vladimirova.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Daria-Usova.jpg" afterPath="$PROJECT_DIR$/build/img/Daria-Usova.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Denis-Bykov.jpg" afterPath="$PROJECT_DIR$/build/img/Denis-Bykov.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Dennis-Ukolov.jpg" afterPath="$PROJECT_DIR$/build/img/Dennis-Ukolov.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Ekaterina-Rubatskaya.jpg" afterPath="$PROJECT_DIR$/build/img/Ekaterina-Rubatskaya.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Georgy-Potapov.jpg" afterPath="$PROJECT_DIR$/build/img/Georgy-Potapov.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Maxim-Guschcho.jpg" afterPath="$PROJECT_DIR$/build/img/Maxim-Guschcho.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Maxim-Samokhin.jpg" afterPath="$PROJECT_DIR$/build/img/Maxim-Samokhin.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Mikhail-Remizov.jpg" afterPath="$PROJECT_DIR$/build/img/Mikhail-Remizov.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Olga-Makarova.jpg" afterPath="$PROJECT_DIR$/build/img/Olga-Makarova.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Olga-Ukolova.jpg" afterPath="$PROJECT_DIR$/build/img/Olga-Ukolova.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Pedro-Gabriel.jpg" afterPath="$PROJECT_DIR$/build/img/Pedro-Gabriel.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Sergey-Bobrovskikh.jpg" afterPath="$PROJECT_DIR$/build/img/Sergey-Bobrovskikh.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Sergey-Venediktov.jpg" afterPath="$PROJECT_DIR$/build/img/Sergey-Venediktov.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/components/main-nav/main-nav.component.ts" afterPath="$PROJECT_DIR$/assets/components/main-nav/main-nav.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/components/workers/workers.component.html" afterPath="$PROJECT_DIR$/assets/components/workers/workers.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/components/workers/workers.component.ts" afterPath="$PROJECT_DIR$/assets/components/workers/workers.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/styles.less" afterPath="$PROJECT_DIR$/assets/styles/styles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/worker.less" afterPath="$PROJECT_DIR$/assets/styles/worker.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/libs.90745a21c108e25c10ec857d2df7a361.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/app.2113815fd36ade12cc91.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/libs.2113815fd36ade12cc91.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/libs.2113815fd36ade12cc91.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/components/workers/workers.component.ts" afterPath="$PROJECT_DIR$/assets/components/workers/workers.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/worker.less" afterPath="$PROJECT_DIR$/assets/styles/worker.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
     </list>
     <ignored path="owm-command-page.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,21 +77,125 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+            <state relative-caret-position="1210">
+              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+=======
+      <file leaf-file-name="worker-popup.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/styles/worker-popup.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workers.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/styles/workers.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="worker.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/styles/worker.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="907">
+              <caret line="171" column="7" lean-forward="false" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="231">
+              <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="workers.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+=======
+      <file leaf-file-name="workers.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="worker.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/styles/worker.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+=======
+      <file leaf-file-name="workers.component.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
               <folding />
             </state>
           </provider>
@@ -52,15 +203,99 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'</find>
+      <find>footer</find>
+      <find>$</find>
+      <find>mainSliderLink</find>
+      <find>params</find>
+      <find>.worker-popup</find>
+      <find>(5n</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+      <replace>@</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/assets/components/main-footer/main-footer.component.html" />
+        <option value="$PROJECT_DIR$/assets/styles/icon-social.less" />
+        <option value="$PROJECT_DIR$/assets/styles/main-footer.less" />
+        <option value="$PROJECT_DIR$/assets/styles/main-nav.less" />
+        <option value="$PROJECT_DIR$/assets/components/features/features.component.ts" />
+        <option value="$PROJECT_DIR$/assets/styles/features.less" />
+        <option value="$PROJECT_DIR$/assets/components/marker/marker.component.less" />
+        <option value="$PROJECT_DIR$/assets/components/main-footer/main-footer.component.less" />
+        <option value="$PROJECT_DIR$/assets/components/features/features.component.less" />
+        <option value="$PROJECT_DIR$/assets/components/features/features.component.html" />
+        <option value="$PROJECT_DIR$/assets/styles/vane-language.less" />
+        <option value="$PROJECT_DIR$/assets/styles/vane-languag-liste.less" />
+        <option value="$PROJECT_DIR$/assets/styles/vane-language-list.less" />
+        <option value="$PROJECT_DIR$/assets/styles/vane-language-table.less" />
+        <option value="$PROJECT_DIR$/assets/components/vane-language/vane-language.component.ts" />
+        <option value="$PROJECT_DIR$/assets/components/vane-language/vane-language.component.html" />
+        <option value="$PROJECT_DIR$/assets/styles/mainpage-btn.less" />
+        <option value="$PROJECT_DIR$/assets/components/vane-language/vane-language.component.less" />
+        <option value="$PROJECT_DIR$/assets/styles/variables.less" />
+        <option value="$PROJECT_DIR$/assets/components/subscribe/subscribe.component.html" />
+        <option value="$PROJECT_DIR$/assets/components/subscribe/subscrive.component.ts" />
+        <option value="$PROJECT_DIR$/assets/styles/subscribe.less" />
+        <option value="$PROJECT_DIR$/assets/components/subscribe/subscribe.component.less" />
+        <option value="$PROJECT_DIR$/assets/components/subscribe/subscribe.component.ts" />
+        <option value="$PROJECT_DIR$/assets/styles/main-slider.less" />
+        <option value="$PROJECT_DIR$/assets/components/main-slider/main-slider.component.less" />
+        <option value="$PROJECT_DIR$/assets/components/main-slider/main-slider.component.html" />
+        <option value="$PROJECT_DIR$/assets/js.js" />
+        <option value="$PROJECT_DIR$/assets/components/app/app.component.less" />
+        <option value="$PROJECT_DIR$/assets/js/mainpage.js" />
+        <option value="$PROJECT_DIR$/assets/bootstrap.ts" />
+        <option value="$PROJECT_DIR$/assets/components/app/app.component.html" />
+        <option value="$PROJECT_DIR$/assets/components/main-slider/main-slider.component.ts" />
+        <option value="$PROJECT_DIR$/assets/components/workers/worders.component.html" />
+        <option value="$PROJECT_DIR$/assets/libs.ts" />
+        <option value="$PROJECT_DIR$/assets/components/app/app.component.ts" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/assets/styles/styles.less" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+        <option value="$PROJECT_DIR$/assets/styles/workers.less" />
+        <option value="$PROJECT_DIR$/assets/components/workers/workers.component.less" />
         <option value="$PROJECT_DIR$/assets/jade/index.jade" />
-        <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/assets/components/main-nav/main-nav.component.html" />
+        <option value="$PROJECT_DIR$/assets/styles/toggle.less" />
+        <option value="$PROJECT_DIR$/assets/components/main-nav/main-nav.component.less" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/assets/components/main-nav/main-nav.component.ts" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+        <option value="$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/index.html" />
+        <option value="$PROJECT_DIR$/assets/styles/worker-popup.less" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/assets/components/workers/workers.component.ts" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/assets/styles/styles.less" />
+        <option value="$PROJECT_DIR$/assets/components/workers/workers.component.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/assets/components/main-nav/main-nav.component.ts" />
+=======
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+        <option value="$PROJECT_DIR$/assets/styles/worker.less" />
       </list>
     </option>
   </component>
@@ -74,6 +309,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -88,6 +324,10 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
+=======
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -104,32 +344,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+      <pane id="Scratches" />
+=======
       <pane id="Scope" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -139,11 +377,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -153,11 +391,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owm-command-page" />
+              <option name="myItemId" value="angular2-leaflet-starter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -165,21 +403,98 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jade" />
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-leaflet-starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-leaflet-starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-leaflet-starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-leaflet-starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-leaflet-starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-leaflet-starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
       <pane id="Scratches" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rospromresource" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\OpenWeatherMap\owm-command-page\assets\styles" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -203,7 +518,7 @@
     <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
       <option name="cucumberJsArguments" value="" />
       <option name="executablePath" />
-      <option name="filePath" />
+      <option name="filePath" value="C:/xampp/htdocs/OpenWeatherMap/owm-command-page/assets/components/features" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -216,7 +531,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -248,33 +563,59 @@
       <updated>1484559456794</updated>
       <workItem from="1484559465434" duration="322000" />
       <workItem from="1484560645497" duration="3345000" />
+      <workItem from="1484565157930" duration="3630000" />
+      <workItem from="1484577252257" duration="6973000" />
+      <workItem from="1484598145558" duration="10759000" />
+      <workItem from="1484645268608" duration="8344000" />
+      <workItem from="1484657872047" duration="9197000" />
+<<<<<<< HEAD
+      <workItem from="1484670914202" duration="4160000" />
+      <workItem from="1485247692489" duration="5970000" />
+=======
+      <workItem from="1484670914202" duration="3960000" />
+      <workItem from="1484684522349" duration="2722000" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3667000" />
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="52700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="49252000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22380953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29528797" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -292,50 +633,419 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/assets/components/vane-language/vane-language.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/mainpage-btn.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-679">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/vane-language/vane-language.component.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/styles/subscribe.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="424">
+          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/jade/index.jade">
+    <entry file="file://$PROJECT_DIR$/assets/components/subscribe/subscribe.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/typings/require.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/subscribe/subscribe.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/main-slider.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="59" column="43" lean-forward="false" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/subscribe/subscribe.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/navigator/navigator.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js.js" />
+    <entry file="file://$PROJECT_DIR$/build/js/app.30f170adbb6052752470.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/build/js/libs.30f170adbb6052752470.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/assets/components/main-slider/main-slider.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#73#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/mainpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3014">
+<<<<<<< HEAD
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+=======
+          <caret line="137" column="17" lean-forward="false" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+          <folding />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/main-slider/main-slider.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/main-slider/main-slider.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+<<<<<<< HEAD
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+=======
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/libs.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+<<<<<<< HEAD
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/workers.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+=======
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/libs.eb2a8a48a30874751bfae1024a0d9470.css" />
+    <entry file="file://$PROJECT_DIR$/build/js/app.5cc7b751c5cc93f0407a.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/build/css/libs.88494470d2f8f1c0a45300389e8f30f1.css" />
+    <entry file="file://$PROJECT_DIR$/build/js/libs.b20ec0099aeadd636f96.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/build/js/app.b20ec0099aeadd636f96.bundle.js" />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/styles/toggle.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+=======
+    <entry file="file://$PROJECT_DIR$/assets/jade/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/main-nav/main-nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/toggle.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/main-nav/main-nav.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+<<<<<<< HEAD
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+=======
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/main-nav/main-nav.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/main-nav.less">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="3608">
+          <caret line="164" column="2" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
+=======
+        <state relative-caret-position="3444">
+          <caret line="164" column="2" lean-forward="false" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/app.09a2ff266a75962a3057.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/index.html" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/libs.09a2ff266a75962a3057.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/css/libs.edeb24d250abf2ebaac5732520e3fd49.css" />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/css/libs.897e707b0c99e6445588c1a37ae62cad.css" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/app.56b09becc2702ec4af08.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/libs.56b09becc2702ec4af08.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/assets/styles/worker-popup.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+=======
+    <entry file="file://$PROJECT_DIR$/assets/styles/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/css/libs.897e707b0c99e6445588c1a37ae62cad.css" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/app.56b09becc2702ec4af08.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/build/themes/owm/assets/vendor/owm/js/libs.56b09becc2702ec4af08.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+=======
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        <state relative-caret-position="438">
+          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+=======
+    <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/jade/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+=======
+    <entry file="file://$PROJECT_DIR$/build/css/libs.90745a21c108e25c10ec857d2df7a361.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="0" column="15069" lean-forward="false" selection-start-line="0" selection-start-column="15066" selection-end-line="0" selection-end-column="15069" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+<<<<<<< HEAD
+        <state relative-caret-position="742">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+=======
+        <state relative-caret-position="231">
+          <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+=======
+    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/components/main-nav/main-nav.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/app/app.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/components/main-nav/main-nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="28" />
+=======
+    <entry file="file://$PROJECT_DIR$/assets/components/workers/workers.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1210">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+=======
+        <state relative-caret-position="399">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/workers.less">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="88">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+=======
+        <state relative-caret-position="168">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/worker.less">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="330">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+=======
+        <state relative-caret-position="907">
+          <caret line="171" column="7" lean-forward="false" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="7" />
+>>>>>>> abfeda99283c9ae0933e64f22e1a8665e966c2b5
           <folding />
         </state>
       </provider>

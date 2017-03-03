@@ -1,0 +1,240 @@
+.worker{
+
+  position: relative;
+  width: 210px;
+  height: 220px;
+  margin-bottom: 30px;
+
+  &__photo{
+    position: relative;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 1px rgba(0,0,0,.3);
+    cursor: pointer;
+    filter: grayscale(1);
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+
+    &:hover{
+      transition-duration: .5s;
+      transition-timing-function: ease-in-out;
+      box-shadow: 0 0 4px 2px #369ce0;
+      filter: none;
+    }
+  }
+
+  &__layout{
+    position: absolute;
+  }
+
+  &__layout:hover + .worker-popup{
+    display: block;
+  }
+
+  &__name{
+    margin: 0;
+    text-align: center;
+    font: 600 @base-font-size / 1 @font-opensans;
+    padding-bottom: 3px;
+    padding-top: 5px;
+  }
+
+  &__post{
+    margin: 0;
+    text-align: center;
+    font: 400 @base-font-size / 1 @font-opensans;
+  }
+
+}
+
+@media (min-width: 1068px) {
+
+  .worker {
+
+    &:nth-of-type(5n) > .worker-popup,
+    &:nth-of-type(5n-1) > .worker-popup{
+      top: 100px;
+      left: -265px;
+
+      &::before{
+        position: absolute;
+        content: '';
+        right: -14px;
+        left: initial;
+        top:49%;
+        border-right: 15px solid transparent;
+        border-top: 25px solid white;
+      }
+
+      &::after{
+        position: absolute;
+        content: '';
+        right: -14px;
+        left: initial;
+        bottom: 50%;
+        border-right: 15px solid transparent;
+        border-bottom: 25px solid white;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 857px) and (max-width: 1067px) {
+
+  .worker {
+
+    &:nth-of-type(4n) > .worker-popup,
+    &:nth-of-type(4n-1) > .worker-popup {
+      top: 100px;
+      left: -265px;
+
+      &::before{
+        position: absolute;
+        content: '';
+        right: -14px;
+        left: initial;
+        top:49%;
+        border-right: 15px solid transparent;
+        border-top: 25px solid white;
+      }
+
+      &::after{
+        position: absolute;
+        content: '';
+        right: -14px;
+        left: initial;
+        bottom: 50%;
+        border-right: 15px solid transparent;
+        border-bottom: 25px solid white;
+      }
+    }
+
+  }
+
+}
+
+@media (min-width: 645px) and (max-width: 856px) {
+
+  .worker {
+
+    &:nth-of-type(3n) > .worker-popup {
+      top: 100px;
+      left: -265px;
+
+      &::before{
+        position: absolute;
+        content: '';
+        right: -14px;
+        left: initial;
+        top:49%;
+        border-right: 15px solid transparent;
+        border-top: 25px solid white;
+      }
+
+      &::after{
+        position: absolute;
+        content: '';
+        right: -14px;
+        left: initial;
+        bottom: 50%;
+        border-right: 15px solid transparent;
+        border-bottom: 25px solid white;
+      }
+    }
+
+  }
+
+}
+
+@media (min-width: 435px) and (max-width: 644px) {
+
+  .worker {
+
+    &:nth-of-type(2n) > .worker-popup {
+      top: 100px;
+      left: -265px;
+
+      &::before{
+        position: absolute;
+        content: '';
+        right: -14px;
+        left: initial;
+        top:49%;
+        border-right: 15px solid transparent;
+        border-top: 25px solid white;
+      }
+
+      &::after{
+        position: absolute;
+        content: '';
+        right: -14px;
+        left: initial;
+        bottom: 50%;
+        border-right: 15px solid transparent;
+        border-bottom: 25px solid white;
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 434px) {
+
+  .worker{
+
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+
+    &__layout:hover + &-popup{
+      display: none;
+    }
+
+    &:hover > &-popup{
+      display: block;
+    }
+
+    &:hover &__photo{
+      transition-duration: .5s;
+      transition-timing-function: ease-in-out;
+      box-shadow: 0 0 4px 2px #369ce0;
+      filter: none;
+    }
+
+    &__photo{
+      width: 100px;
+      height: 100px;
+    }
+
+    &__layout{
+      position: static;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      padding-bottom: 5px;
+    }
+
+    &__name{
+      text-align: left;
+    }
+
+    &__post{
+      text-align: left;
+    }
+
+    &__data{
+      margin-left: 15px;
+    }
+
+  }
+
+}

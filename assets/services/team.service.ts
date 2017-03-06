@@ -7,6 +7,6 @@ export class HttpTeamService {
     constructor(private http: Http) {}
 
     getWorkers() {
-        return this.http.get(`themes/owm/assets/data/team.json`);
+        return this.http.get(`themes/owm/assets/vendor/owm/data/team.json`);
     }
 }

@@ -5,15 +5,22 @@ var HtmlWebpackPlugin  = require('html-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var OptimizeJsPlugin = require("optimize-js-plugin");
 var ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
-var WebpackCleanupPlugin = require('webpack-cleanup-plugin');
+var CleanWebpackPlugin = require('clean-webpack-plugin'); // чистить бтлд перед пересборкой
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'); // для плагина по минификации и оптимизации css
 var CopyWebpackPlugin = require('copy-webpack-plugin'); // копирование файлов
+const webpackUglifyJsPlugin = require('webpack-uglify-js-plugin');
 
 var srcDir = 'assets';
-//var outputDir = 'build/themes/owm/assets/vendor/owm';
-var outputDir = 'build';
+var outputDir = 'build/themes/owm/assets/vendor/owm';
+//var outputDir = 'build';
 
 module.exports = {
+    devServer: {
+        contentBase: path.join(__dirname, "build"),
+        compress: true,
+        port: 3000
+    },
+    context: __dirname + '/assets',
     devtool: "source-map",
     debug: true,
     entry: {
@@ -22,6 +29,7 @@ module.exports = {
     },
     output: {
         path: outputDir,
+        publicPath: '/',
         filename: 'js/[name].[hash].bundle.js',
         sourceMapFilename: 'js/[name].[hash].map',
         chunkFilename: 'js/[id].[hash].chunk.js'
@@ -50,9 +58,15 @@ module.exports = {
         noParse: [ path.join(__dirname, 'node_modules', 'angular2', 'bundles') ]
     },
     plugins: [
+        // Чистить папку с билдом перед каждой сборкой
+        new CleanWebpackPlugin('build/', {
+            root: __dirname,
+            verbose: true,
+            dry: false,
+        }),
          //uncomment this code for production
          new webpack.optimize.UglifyJsPlugin({
-             sourceMap: false,
+             sourceMap: true,
              mangle: true
         }),
         new ExtractTextPlugin("css/[name].[contenthash].css", {allChunks: true}),
@@ -67,9 +81,6 @@ module.exports = {
         }),
         new ScriptExtHtmlWebpackPlugin({
           defaultAttribute: 'defer'
-        }),
-        new WebpackCleanupPlugin({
-          exclude: ['index.html']
         }),
         new OptimizeJsPlugin({
           sourceMap: false

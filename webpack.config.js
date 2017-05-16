@@ -1,6 +1,9 @@
 var webpack = require('webpack');
 var path = require('path');
-
+// Установка режима работы сборщика
+const NODE_ENV = process.env.NODE_ENV || 'development';
+// Режим очистки старых файлов билда при каждой сборке
+const REFRESH = process.env.REFRESH;
 var HtmlWebpackPlugin  = require('html-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var OptimizeJsPlugin = require("optimize-js-plugin");
@@ -20,12 +23,12 @@ module.exports = {
         compress: true,
         port: 3000
     },
+    devtool: 'inline-source-map',
     context: __dirname + '/assets',
-    devtool: "source-map",
     debug: true,
     entry: {
-        libs: path.resolve(srcDir, 'libs.ts'),
-        app: path.resolve(srcDir, 'bootstrap.ts')
+        teampage_libs: path.resolve(srcDir, 'libs.ts'),
+        teampage_app: path.resolve(srcDir, 'bootstrap.ts')
     },
     output: {
         path: outputDir,
@@ -58,17 +61,6 @@ module.exports = {
         noParse: [ path.join(__dirname, 'node_modules', 'angular2', 'bundles') ]
     },
     plugins: [
-        // Чистить папку с билдом перед каждой сборкой
-        new CleanWebpackPlugin('build/', {
-            root: __dirname,
-            verbose: true,
-            dry: false,
-        }),
-         //uncomment this code for production
-         new webpack.optimize.UglifyJsPlugin({
-             sourceMap: true,
-             mangle: true
-        }),
         new ExtractTextPlugin("css/[name].[contenthash].css", {allChunks: true}),
         new HtmlWebpackPlugin({
             inject: true,
@@ -82,9 +74,6 @@ module.exports = {
         new ScriptExtHtmlWebpackPlugin({
           defaultAttribute: 'defer'
         }),
-        new OptimizeJsPlugin({
-          sourceMap: false
-        }),
         new OptimizeCssAssetsPlugin({ // Оптимизация и минификация сгенерированного css кода
             assetNameRegExp: /\.css$/g,
             cssProcessor: require('cssnano'),
@@ -96,3 +85,40 @@ module.exports = {
         }]),
     ]
 };
+
+if(NODE_ENV == 'development') {
+  module.exports.plugins.push(
+    new webpack.optimize.UglifyJsPlugin({
+        sourceMap: true,
+        mangle: false
+    }),
+    new OptimizeJsPlugin({
+      sourceMap: true
+    })
+  );
+}
+
+if(NODE_ENV == 'production') {
+  module.exports.plugins.push(
+    //uncomment this code for production
+    new webpack.optimize.UglifyJsPlugin({
+        sourceMap: true,
+        mangle: true
+    }),
+    new OptimizeJsPlugin({
+      sourceMap: false
+    })
+  );
+}
+
+if(REFRESH == 'refresh') {
+  module.exports.plugins.push(
+    // Чистить папку с билдом перед каждой сборкой
+    new CleanWebpackPlugin('build/', {
+      root: __dirname,
+      verbose: true,
+      dry: false,
+    })
+  );
+
+}

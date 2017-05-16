@@ -8,7 +8,10 @@
     "url": "git+https://github.com/haoliangyu/angular2-leaflet-starter.git"
   },
   "scripts": {
-    "dev": "webpack-dev-server --color"
+    "dev": "REFRESH=refresh webpack-dev-server --colors --config webpack.config.js",
+    "start-dev": "REFRESH=refresh webpack --colors --progress --config webpack.config.js",
+    "prod": "REFRESH=refresh NODE_ENV=production  webpack-dev-server --watch --colors --config webpack.config.js",
+    "start-prod": "REFRESH=refresh NODE_ENV=production webpack --colors --progress --config webpack.config.js"
   },
   "keywords": [
     "angular2",

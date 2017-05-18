@@ -81,7 +81,7 @@ module.exports = {
             canPrint: true
         }),
         new CopyWebpackPlugin([{
-            from: path.resolve(srcDir+'/data/', 'team.json'), to: 'themes/owm/assets/vendor/owm/data/'
+            from: path.resolve(srcDir+'/data/', 'team.json'), to: 'themes/openweathermap/assets/vendor/owm/data/'
         }]),
     ]
 };

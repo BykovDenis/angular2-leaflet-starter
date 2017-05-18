@@ -14,7 +14,7 @@ var CopyWebpackPlugin = require('copy-webpack-plugin'); // копировани�
 const webpackUglifyJsPlugin = require('webpack-uglify-js-plugin');
 
 var srcDir = 'assets';
-var outputDir = 'build/themes/owm/assets/vendor/owm';
+var outputDir = 'build/themes/openweathermap/assets/vendor/owm';
 //var outputDir = 'build';
 
 module.exports = {
@@ -50,13 +50,13 @@ module.exports = {
             { test: /\.component\.html$/, loader: 'raw' },
             { test: /(\.component|)\.less$/, loader: ExtractTextPlugin.extract('to-string!css!less')}, // loaders to preprocess CSS
             { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader') },
-            { test: /\.(svg|png|gif|jpg)$/, loader: "file?name=themes/owm/assets/vendor/owm/img/[name].[ext]" },
+            { test: /\.(svg|png|gif|jpg)$/, loader: "file?name=themes/openweathermap/assets/vendor/owm/img/[name].[ext]" },
             // For font-awesome, created by Turbo87:
             // https://gist.github.com/Turbo87/e8e941e68308d3b40ef6
-            { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=themes/owm/assets/vendor/owm/fonts/[name].[ext]" },
-            { test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=themes/owm/assets/vendor/owm/fonts/[name].[ext]" },
-            { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=themes/owm/assets/vendor/owm/fonts/[name].[ext]" },
-            { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=themes/owm/assets/vendor/owm/fonts/[name].[ext]" }
+            { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=themes/openweathermap/assets/vendor/owm/fonts/[name].[ext]" },
+            { test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=themes/openweathermap/assets/vendor/owm/fonts/[name].[ext]" },
+            { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=themes/openweathermap/assets/vendor/owm/fonts/[name].[ext]" },
+            { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=themes/openweathermap/assets/vendor/owm/fonts/[name].[ext]" }
         ],
         noParse: [ path.join(__dirname, 'node_modules', 'angular2', 'bundles') ]
     },

@@ -1,15 +1,35 @@
-.workers{
+.workers {
   max-width: 1130px;
-  margin: 50px auto;
-
+  width: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  margin: 50px auto;
+  padding-left: 15px;
 }
 
-@media (max-width: 435px) {
+@media (min-width: 918px) and (max-width: 1140px) {
+  .workers {
+    max-width: 900px;
+  }
+}
+
+
+@media (min-width: 693px) and (max-width: 917px) {
+  .workers {
+    max-width: 675px;
+  }
+}
+
+@media (min-width: 477px) and (max-width: 692px) {
+  .workers {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 476px) {
   .workers {
     display: flex;
     flex-direction: column;

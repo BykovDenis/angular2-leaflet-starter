@@ -28,8 +28,11 @@ export class MainNavComponent {
         }
     }
 
-    getToggle() {
-        let node = event.target.parentNode;
+    getToggle(event) {
+        let node;
+        if(event.target) {
+            node = event.target.parentNode;
+        }
         let element = document.getElementById(node.id);
         if(element) {
             const menuVane = element.querySelector('.main-nav__sub-items');
